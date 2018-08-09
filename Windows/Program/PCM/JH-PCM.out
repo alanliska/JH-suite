@@ -1,0 +1,29 @@
+============================ * JH PROGRAM SUITE * ==============================
+================== * Procedure PCM (PARTIAL CHARGE MODEL) * ====================
+Version 1.01 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+RESULTS
+================================================================================
+Element H	Number of atoms 1	Electronegativity   2.10
+Element Li	Number of atoms 1	Electronegativity   0.97
+Element O	Number of atoms 4	Electronegativity   3.50
+Element S	Number of atoms 1	Electronegativity   2.48
+Input overall charge -1
+Electronegativity of the species:   2.26
+Atom	Atomic charge
+H	  0.08
+Li	  0.96
+O	 -0.49
+S	 -0.10
+Sum of atomic charges  -1.00
+================================================================================
+REFERENCES:
+[1] Marc Henry, Jean Pierre Jolivet, Jacques Livage, in Chemistry, Spectroscopy
+ and Applications of Sol-Gel Glasses, Springer, Berlin Heidelberg 1992, 153-206.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-PCM.exe terminated NORMALLY, 12.10.2017, 18:15:21.

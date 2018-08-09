@@ -1,0 +1,24 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================= * Procedure CLIFFORD II * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-13 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Solubility product, pKs =  73.77
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+Fe(OH)3
+Fe(OH)3 = Fe+3 + 3 OH-
+     log_k   -73.77
+================================================================================
+REFERENCES:
+[1] A. F. Clifford, J. Phys. Chem. 63(8) (1959) 1227-1231.
+[2] Bacanov, S.S.: Elektronegativita prvkù a chemická vazba. SNTL, Praha 1965.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Clifford2.exe terminated NORMALLY, 13.02.2018, 14:11:56.

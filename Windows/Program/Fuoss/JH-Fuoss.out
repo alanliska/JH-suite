@@ -1,0 +1,36 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure FUOSS * ===============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-11-13 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT
+================================================================================
+Cation: Na+
+Radius = 102.0 pm
+
+Anion: SO4-2
+Radius = 230.0 pm
+
+Separation distance = 332.0 pm
+
+Temperature =  25.00 °C
+Solvent relative permittivity =  78.54
+================================================================================
+RESULTS
+================================================================================
+PHREEQC STYLE COMPATIBLE INPUT
+Na+ + SO4-2 = NaSO4-
+     log_k    0.83
+================================================================================
+REFERENCES:
+[1] Raymond M. Fuoss, J. Am. Chem. Soc. 80(19) (1958) 5059-5061.
+[2] Kosuke Izutsu: Electrochemistry in Nonaqueous Solutions. Wiley-VCH,
+ Weinheim 2009.
+[3] Yizhak Marcus: Ions in Solution and their Solvation. John Wiley & Sons,
+ New Jersey 2015.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Fuoss.exe terminated NORMALLY, 13.11.2017, 12:58:10.

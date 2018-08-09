@@ -1,0 +1,28 @@
+============================ * JH PROGRAM SUITE * ==============================
+============== * Procedure Mavrovouniotis (organic compounds) * ================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+-COO-	1
+-CH3	1
+
+Standard formation Gibbs energy, G°(f,aq) = -366.94 kJ.mol-1
+================================================================================
+REFERENCES:
+[1] Michael L. Mavrovouniotis, The Journal of Biological Chemistry 266(22)
+ (1991) 14440-14445.
+[2] Michael L. Mavrovouniotis, Patrick Bayol, Tu-Kien Michael Lam, George
+ Stephanopoulos, Gregory Stephanopoulos, Biotechnology Techniques 2(1) (1988)
+ 23-28.
+[3] Michael L. Mavrovouniotis, Biotechnology and Bioengineering 36 (1990)
+ 1070-1082.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Mavrovouniotis.exe terminated NORMALLY, 12.02.2018, 18:00:04.

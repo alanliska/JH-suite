@@ -1,0 +1,43 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================= * PROCEDURE DICK * ===============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+Ala	2
+Arg	1
+Asp	2
+Glu	2
+Gly	5
+Leu	1
+Phe	1
+Ser	1
+Val	1
+
+Number of amino acid fragments:  16
+Number of positive amino acid fragments:   0
+Number of negative amino acid fragments:   0
+
+Standard formation Gibbs energy, G°(f,aq) = -3213.81 kJ.mol-1
+Standard formation enthalpy, H°(f,aq) = -5952.37 kJ.mol-1
+Standard formation entropy, S°(f,aq) =  2000.83 J.K-1.mol-1
+
+Equilibrium constant (formation of polypeptide from amino acids),
+                            log K =  -74.06
+================================================================================
+REFERENCES:
+[1] J. M. Dick, D. E. LaRowe, H.C. Helgeson, Biogeosciences 3 (2006) 311-336.
+[2] J. M. Dick, D. E. LaRowe, H. C. Helgeson, Biogeosciences Discussions 2
+ (2005) 1515-1615.
+[3] Jan P. Amend, Harold C. Helgeson, Biophysical Chemistry 84 (2000) 105-136.
+[4] Allen J. Bard, Roger Parsons, Joseph Jordan: Standard Potentials in Aqueous
+ Solution. Marcel Dekker, New York and Basel 1985.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Dick.exe terminated NORMALLY, 12.02.2018, 19:26:59.

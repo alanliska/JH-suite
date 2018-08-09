@@ -1,0 +1,27 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================= * Procedure BELL * ===============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-11-09 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT DATA
+================================================================================
+Acid: 	Si(OH)4
+Linear equation coefficients: 8 and -5
+================================================================================
+RESULTS
+================================================================================
+PHREEQC STYLE COMPATIBLE INPUT
+H4SiO4 = H3SiO4- + H+
+     log_k   -8.00
+================================================================================
+REFERENCES:
+[1] R. P. Bell: The Proton in Chemistry (2nd Edition). Chapman and Hall,
+ London 1973.
+[2] N. N. Greenwood, A. Earnshaw: Chemie prvku, svazek 1. Informatorium,
+ Praha 1993.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Bell.exe terminated NORMALLY, 09.11.2017, 20:43:27.

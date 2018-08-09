@@ -1,0 +1,81 @@
+=========================== * JH PROGRAM SUITE * ===============================
+========================= * Procedure BROWN-SYLVA * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-10-29 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT
+================================================================================
+Lewis acid: In+3
+Lewis acid charge = 3
+d-orbitals parameter = 1
+s-orbitals parameter = 0
+d-orbitals principal quantum number = 4
+Slater function = 1
+d-electrons = 10
+
+Lewis base: Edta-4
+Lewis base charge = -4
+Coordination number of desired ligand = 6
+
+Number of carboxylate groups = 4
+Electronicity of carboxylate group =   0.74 eV
+Absolute metal-carboxylate group affinity = -0.585
+Relative metal-carboxylate group affinity =  0.135
+Donor group type parameter = 1
+Acid ionization constant =  2.690
+
+Number of amino groups = 2
+Electronicity of amino group =   1.41 eV
+Absolute metal-amino group affinity = -0.996
+Relative metal-amino group affinity =  0.230
+Donor group type parameter = 0
+Base ionization constant = 10.948
+================================================================================
+RESULTS
+================================================================================
+Lewis acid
+==========
+Model of calculation: Brown
+
+Lewis base
+==========
+Model of calculation: Brown
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+In+3 + Edta-4 = InEdta-
+     log_k   30.85
+================================================================================
+REFERENCES:
+[1] Paul Leslie Brown, Ronald N. Sylva, AAEC/E656 1987 (patent).
+[2] Paul Leslie Brown, Ronald N. Sylva, J. Chem. Soc., Dalton Trans. 4 (1985)
+ 723-730.
+[3] Paul Leslie Brown, Heinz Wanner: Predicted formation constants using the
+ unified theory of metal ion complexation. Organisation for Economic Co-
+ operation and Development, Nuclear Energy Agency, Paris 1987.
+[4] Paul Leslie Brown, Christian Ekberg: Hydrolysis of Metal Ions, Volume 1-2.
+ Wiley-VCH, Weinheim 2016.
+[5] R. D. Shannon, Acta Cryst. A32 (1976) 751-767.
+[6] Nils Wiberg: Lehrbuch der Anorganischen Chemie, 102. Auflage. Walter de
+ Gruyter, Berlin 2007.
+[7] Klaus Stockar, Helvetica Chimica Acta 33(6) (1950) 1409-1420.
+[8] Robert G. Parr, Ralph G. Pearson, J. Am. Chem. Soc. 105 (1983) 7512-7516.
+[9] G. Klopman, J. Am. Chem. Soc. 90(2) (1968) 223-234.
+[10] Stepan S. Batsanov, Andrei S. Batsanov: Introduction to Structural
+ Chemistry. Springer, Dordrecht 2012.
+[11] V. A. Rabinovic, Z. Ja. Chavin: Strucna chemicka prirucka. SNTL,
+ Praha 1985.
+[12] Jiri Vohlidal, Alois Julak, Karel Stulik: Chemicke a analyticke tabulky.
+ GRADA Publishing, Praha 1999.
+[13] B. P. Nikolski: Handbuch des Chemikers, Band I. VEB Verlag Technik,
+ Berlin 1956.
+[14] M. J. Sienko, R. A. Plane: Physical Inorganic Chemistry. W. A. Benjamin,
+ New York 1963.
+[15] Arthur E. Martell, Robert M. Smith: NIST Standard Reference Database 46
+ Version 8.0, NIST, Gaithersburg 2004.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Brown2.exe terminated NORMALLY, 29.10.2017; 19:23:52.

@@ -1,0 +1,88 @@
+=========================== * JH PROGRAM SUITE * ===============================
+========================= * Procedure BROWN-SYLVA * ============================
+Version 1.03 for Windows (32 bit)
+Compiled 2018-03-18 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Lewis acid: Ni+2
+Lewis acid charge = 2
+Ion radius =  79.0 pm (Stockar)
+Electronicity =  2.07
+d-orbitals parameter = 1
+s-orbitals parameter = 0
+d-orbitals principal quantum number = 3
+Slater function = 1
+d-electrons = 8
+
+Lewis base: NH3
+Lewis base charge = 0
+Conjugate acid pKa = 8.97
+Anion type ligand parameter = 0
+================================================================================
+RESULTS
+================================================================================
+Lewis acid
+==========
+Model of calculation: Brown
+
+Lewis base
+==========
+Model of calculation: Parr
+
+Ionization potential =  24.00 eV
+Electron affinity =  10.20 eV
+Hardness =   6.90 eV
+Electronicity =   0.10 eV
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+Ni+2 + 2 NH3 = Ni(NH3)2+2
+     log_k    3.38
+================================================================================
+REFERENCES:
+[1] Paul Leslie Brown, Ronald N. Sylva, AAEC/E656 1987 (patent).
+[2] Paul Leslie Brown, Ronald N. Sylva, J. Chem. Soc., Dalton Trans. 4 (1985)
+ 723-730.
+[3] Paul Leslie Brown, Heinz Wanner: Predicted formation constants using the
+ unified theory of metal ion complexation. Organisation for Economic Co-
+ operation and Development, Nuclear Energy Agency, Paris 1987.
+[4] Paul Leslie Brown, Christian Ekberg: Hydrolysis of Metal Ions, Volume 1-2.
+ Wiley-VCH, Weinheim 2016.
+[5] R. D. Shannon, Acta Cryst. A32 (1976) 751-767.
+[6] Nils Wiberg: Lehrbuch der Anorganischen Chemie, 102. Auflage. Walter de
+ Gruyter, Berlin 2007.
+[7] Klaus Stockar, Helvetica Chimica Acta 33(6) (1950) 1409-1420.
+[8] Robert G. Parr, Ralph G. Pearson, J. Am. Chem. Soc. 105 (1983) 7512-7516.
+[9] G. Klopman, J. Am. Chem. Soc. 90(2) (1968) 223-234.
+[10] Lars Gunnar Sillen, Arthur E. Martell: Stability Constants of Metal-Ion
+ Complexes. The Chemical Society, Burlington House W.1, London 1964.
+[11] H. J. M. Bowen et al.: Tables of Interatomic Distances and Configuration
+ in Molecules and Ions. The Chemical Society, Burlington House, London 1958.
+[12] L. E. Sutton et al.: Tables of Interatomic Distances and Configuration in
+ Molecules and Ions, Supplement 1956-1959. The Chemical Society, Burlington
+ House, London 1965.
+[13] Stepan S. Batsanov, Andrei S. Batsanov: Introduction to Structural
+ Chemistry. Springer, Dordrecht 2012.
+[14] V. A. Rabinovic, Z. Ja. Chavin: Strucna chemicka prirucka. SNTL,
+ Praha 1985.
+[15] Jiri Vohlidal, Alois Julak, Karel Stulik: Chemicke a analyticke tabulky.
+ GRADA Publishing, Praha 1999.
+[16] B. P. Nikolski: Handbuch des Chemikers, Band I. VEB Verlag Technik,
+ Berlin 1956.
+[17] Helen K. Roobottom, H. Donald B. Jenkins, Jack Passmore, Leslie Glasser,
+ J. Chem. Ed. 76(11) (1999) 1570-1573.
+[18] H. Donald B. Jenkins, Helen K. Roobottom, Jack Passmore, Leslie Glasser,
+ Inorg. Chem. 38 (1999) 3609-3620.
+[19] M. J. Sienko, R. A. Plane: Physical Inorganic Chemistry. W. A. Benjamin,
+ New York 1963.
+[20] Tae Bum Lee, Michael L. McKee, Inorganic Chemistry 50 (2011) 11412-11422.
+[21] Michael L. McKee, J. Phys. Chem. 100 (1996) 3473-3481.
+[22] Arthur E. Martell, Robert M. Smith: NIST Standard Reference Database 46
+ Version 8.0, NIST, Gaithersburg 2004.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Brown1.exe terminated NORMALLY, 18.03.2018; 19:20:41.

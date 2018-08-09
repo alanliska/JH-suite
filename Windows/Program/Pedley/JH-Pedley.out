@@ -1,0 +1,30 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure PEDLEY * ==============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+-CH3	2
+-CH2-	2
+-CH2-_-CH2-	1
+
+Standard enthalpy of fusion = -125.5 kJ.mol-1
+Standard error =    0.8 kJ.mol-1
+
+WARNING
+=======
+The standard error was not given for all groups, the real error may be
+higher.
+================================================================================
+REFERENCES:
+[1] J.B. Pedley, R.D. Naylor, S.P. Kirby: Thermochemical Data of Organic
+    Compounds, Second Edition. Chapman and Hall, London and New York 1986.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Pedley.exe terminated NORMALLY, 25.03.2018, 20:53:44.

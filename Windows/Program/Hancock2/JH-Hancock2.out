@@ -1,0 +1,33 @@
+============================ * JH PROGRAM SUITE * ==============================
+===================== * Procedure HANCOCK-MARSICANO II * =======================
+Version 1.01 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT DATA
+================================================================================
+Lewis acid: 	Ag+	Lewis base: 	SO3-2
+Lewis acid parameters: 
+EA = -1.52
+CA =  0.14
+DA =  0.00
+Lewis base parameters: 
+EB = -1.94
+CB = 18.20
+DB =  0.40
+================================================================================
+RESULTS
+================================================================================
+Stability constant, log K1 =   5.55
+ 
+PHREEQC STYLE COMPATIBLE INPUT
+Ag+ + SO3-2 = AgSO3-
+     log_k    5.55
+================================================================================
+REFERENCES:
+[1] Robert D. Hancock, Fabrizio Marsicano, Inorganic Chemistry 19(9) (1980) 2709
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Hancock2.exe terminated NORMALLY, 12.10.2017, 17:52:11.

@@ -1,0 +1,52 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure ZUMAN III * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Compound: Cl-CZ1Z2Z3
+Substituent(s):
+Z (1): CH3
+Z (2): i-C5H11
+Z (2): CH3
+================================================================================
+RESULTS
+================================================================================
+Solvent: 0.1M H2SO4+0.1M K2SO4 in 20% EtOH
+pH =  0.00
+Mechanism: X
+Oxidation or reduction: R
+Equation used: 381 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.45 V
+EH(SCE) =  0.00 V vs. SCE
+Remark: 
+
+Sigma(*) (1) =  0.00
+Sigma_I (1) =  0.00
+Sigma(*) (2) = -0.16
+Sigma_I (2) = -0.07
+Sigma(*) (3) =  0.00
+Sigma_I (3) =  0.00
+EH =  0.00 V vs. SCE
+Rho =  0.45 V
+E = -0.03 V vs. SCE
+
+
+Explanation of abbreviations:
+
+Solvents: EtOH=ethanol, i-PrOH=isopropanol, MeOH=methanol
+Mechanism: E=electrophilic, N=nucleophilic
+Oxidation or reduction: O=oxidation, R=reduction
+Potentials: EH=parental derivative (all R´s=H), E=desired derivative
+================================================================================
+REFERENCES:
+[1] Petr Zuman: Vplyvy substituentov v organickej polarografii. Nakladatelstvo
+    Alfa, Bratislava 1970.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Zuman3.exe terminated NORMALLY, 25.03.2018, 22:04:13.

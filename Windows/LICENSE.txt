@@ -1,0 +1,17 @@
+============================ * JH PROGRAM SUITE * ==============================
+================================================================================
+Version 1.10 for Windows (32 bit)
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

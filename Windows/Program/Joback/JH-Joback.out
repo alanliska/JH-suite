@@ -1,0 +1,56 @@
+============================ * JH PROGRAM SUITE * ==============================
+================ * Procedure Joback-Reid (organic compounds) * =================
+Version 1.01 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+-CH2-	2
+-OH alc.	1
+-NH2	1
+
+Molar weight =   61.08 g.mol-1
+Normal freezing point = -16.77 °C (p = 101325 Pa)
+Normal boiling point = 136.92 °C (p = 101325 Pa)
+Critical temperature = 315.28 °C
+Critical pressure =  6288829.6 Pa
+Critical molar volume = 195.50 cm3.mol-1
+
+*Temperature = -16.77 °C*
+
+Molar freezing enthalpy =   10.2 kJ.mol-1
+
+*Temperature = 25.00 °C*
+
+Standard enthalpy of fusion = -203.0 kJ.mol-1
+Standard free energy of fusion = -104.4 kJ.mol-1
+
+*Temperature = 136.92 °C*
+
+Molar vaporization enthalpy =   47.4 kJ.mol-1
+
+*Temperature =  26.85 °C*
+
+Molar heat capacity =   86.4 J.K-1.mol-1 (ideal gas state)
+
+*Temperature corresponding to liquid state*
+
+Viscosity =  0.001276 N.s.m-2
+
+WARNING
+=======
+Please note that not every molecule property is parametrized within requested
+set of group contributions. Therefore, some predicted values can be mislead.
+Before further use, please check the file JH-Joback.dat for presence of needed
+data.
+================================================================================
+REFERENCES:
+[1] K.G. Joback, R.C. Reid, Chem. Eng. Comm. 57 (1987) 233-243.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Joback.exe terminated NORMALLY, 12.10.2017, 19:24:21.

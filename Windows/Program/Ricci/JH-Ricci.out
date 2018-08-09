@@ -1,0 +1,29 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure RICCI * ===============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-11-09 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT DATA
+================================================================================
+Acid: 	SO2(OH)2
+Requested ionization process: 	2
+Linear equation coefficients: 8, -9 and 4
+================================================================================
+RESULTS
+================================================================================
+PHREEQC STYLE COMPATIBLE INPUT
+HSO4- = SO4-2 + H+
+     log_k   -2.00
+================================================================================
+REFERENCES:
+[1] John E. Ricci, J. Am. Chem. Soc. 70(1) (1948) 109-113.
+[2] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Ricci.exe terminated NORMALLY, 09.11.2017, 20:40:17.

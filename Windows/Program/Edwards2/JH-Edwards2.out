@@ -1,0 +1,30 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure EDWARDS II * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RATES
+Title
+-start
+10 if (MOL("[PtCl2(SeEt2)2]") <= 1e-15) then goto 200
+100 moles = 0.001782378767448 * MOL("[PtCl2(SeEt2)2]") * MOL("[NO2-]-")
+200 SAVE moles
+-end
+
+KINETICS
+Title
+-formula [PtCl2(SeEt2)2] -1 [NO2-] -1 [PtCl(SeEt2)2NO2] 1 [Cl-]- 1
+================================================================================
+REFERENCES:
+[1] Umberto Belluco, Lucio Cattalini, Fried Basolo, Ralph G. Pearson, Aldo
+ Turco, J. Am. Chem. Soc. 87(2) (1965) 241-246.
+[2] Ralph G. Pearson, Harold Sobel, Jon Songstad, J. Am. Chem. Soc. 90(2)
+ (1968) 319-326.
+[3] Lucio Cattalini: "MECHANISM OF SQUARE PLANAR SUBSTITUTION" in Inorganic
+ Chemistry Series One, MTP Series 9 (1972) 66.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Edwards2.exe terminated NORMALLY, 12.02.2018, 15:35:33.

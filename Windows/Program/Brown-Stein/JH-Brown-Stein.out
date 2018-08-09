@@ -1,0 +1,30 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure BROWN-STEIN * ===========================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+-CH3	1
+-CH2-	1
+-OH prim.	1
+
+Normal boiling point =  59.71 °C (Joback-Reid definition)
+Corrected boiling point =  61.14 °C
+================================================================================
+REFERENCES:
+[1] S. E. Stein, R. L. Brown: Estimation of Normal Boiling Points from Group
+    Contributions. J. Chem. Inf. Comput. Sci. 34 (1994) 581-587.
+[2] John C. Dearden, Environmental Toxicology and Chemistry 22(8) (2003)
+    1696-1709.
+[3] Robert S. Boethling (Ed.) et al: Handbook of Property Estimation Methods
+    for Chemicals: Environmental and Health Sciences. CRC Press LLC,
+    Boca Raton 2000.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Brown-Stein.exe terminated NORMALLY, 25.03.2018, 20:50:20.

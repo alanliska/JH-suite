@@ -1,0 +1,27 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure PAULING II * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-22 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Number of nitrogen atoms in the compound = 1
+Number of oxygen atoms in the compound = 0
+
+Bond  	Bond energy (kJ.mol-1)	Ionicity
+======	======================	========
+N-H		  77.95		 18.3 %
+N-Cl		   0.00		  0.0 %
+N-Br		   3.85		  1.0 %
+
+Heat of formation = -317.44 kJ.mol-1
+================================================================================
+REFERENCES:
+[1] Linus Pauling: The Nature of The Chemical Bond, 3rd Edition. Cornell
+    University Press, London 1960.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Pauling2.exe terminated NORMALLY, 18.03.2018, 21:15:02.

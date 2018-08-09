@@ -1,0 +1,30 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================= * Procedure BANKS-BURNOP * ===========================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+C	7
+H	8
+double	3
+6ring	1
+
+Normal boiling point =  92.69 °C (Banks)
+Normal boiling point = 116.49 °C (Burnop, Gold, Ogle)
+================================================================================
+REFERENCES:
+[1] Robert S. Boethling (Ed.) et al: Handbook of Property Estimation Methods
+    for Chemicals: Environmental and Health Sciences. CRC Press LLC,
+    Boca Raton 2000.
+[2] W. H. Banks, J. Chem. Soc. (1939) 292-295.
+[3] V. C. E. Burnop, J. Chem. Soc. (1938) 826-829.
+[4] P. I. Gold, G. J. Ogle, Chemical Engineering 76(1) (1969) 119.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Banks-Burnop.exe terminated NORMALLY, 25.03.2018, 20:36:00.

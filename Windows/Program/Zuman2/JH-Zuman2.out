@@ -1,0 +1,63 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure ZUMAN II * =============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Compound: X-Het6
+Substituent(s):
+X (1): CH3
+X (2): -
+================================================================================
+RESULTS
+================================================================================
+Solvent: 50% EtOH with Britton-Robinson
+pH =  7.25
+Mechanism: X
+Oxidation or reduction: R
+Equation used: 29h (according to the literature)
+Rho(pi)R =  0.09 V
+EH(SCE) = -0.73 V vs. SCE
+Remark: 1st wave
+
+Sigma_I = -0.05
+Sigma_I(*) = -0.11
+EH = -0.73 V vs. SCE
+Rho =  0.09 V
+E = -0.74 V vs. SCE
+Warning: only first substituent is calculated!
+
+Solvent: 50% EtOH with Britton-Robinson
+pH =  7.25
+Mechanism: X
+Oxidation or reduction: R
+Equation used: 29h (according to the literature)
+Rho(pi)R =  0.24 V
+EH(SCE) = -1.22 V vs. SCE
+Remark: 2nd wave
+
+Sigma_I = -0.05
+Sigma_I(*) = -0.11
+EH = -1.22 V vs. SCE
+Rho =  0.24 V
+E = -1.25 V vs. SCE
+Warning: only first substituent is calculated!
+
+
+Explanation of abbreviations:
+
+Solvents: EtOH=ethanol, i-PrOH=isopropanol, MeOH=methanol
+Mechanism: E=electrophilic, N=nucleophilic
+Oxidation or reduction: O=oxidation, R=reduction
+Potentials: EH=parental derivative (all R´s=H), E=desired derivative
+================================================================================
+REFERENCES:
+[1] Petr Zuman: Vplyvy substituentov v organickej polarografii. Nakladatelstvo
+    Alfa, Bratislava 1970.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Zuman2.exe terminated NORMALLY, 25.03.2018, 21:56:56.

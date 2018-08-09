@@ -1,0 +1,46 @@
+Series;Solvent;pH;Mechanism;Ox-Red;Equation;Delta(pi)R;Rho(pi)R;EH(SCE);Remark
+X-Het1;Water+borate;9.3;X;R;29h;X;0.24;-1.515;
+X-Het2;Water+borate;9.3;X;R;29h;X;0.35;-1.365;
+X-Het3-X;Water+borate;9.3;X;R;29h;X;0.23;-1.372;
+X-Het4-X;Water+borate;9.3;X;R;29h;X;0.25;-1.647;
+X-Het5;0.3M LiCl in MeOH-C6H6 1:1;X;X;R;29h;X;0.24;-0.84;
+X-Het6;50% EtOH with Britton-Robinson;7.25;X;R;29h;X;0.09;-0.73;1st wave
+X-Het6;50% EtOH with Britton-Robinson;7.25;X;R;29h;X;0.24;-1.22;2nd wave
+X-Het7;0.1M Et4Nbenzenesulphonate;X;X;R;29h;X;0.22;-1.41;
+X-Het8;Water+1M HCl;X;X;R;38h;X;0.25;-0.87;
+X-Het9;Water with Britton-Robinson;8.3;X;R;29h;X;0.14;-1.41;
+X-Het10;Water+borate;9.3;X;R;25h;X;0.40;0.02;
+X-Het11-X;Water+borate;9.2;X;R;38h;X;0.07;0.13;
+X-Het12;Water+borate;9.3;X;R;27;X;0.26;-1.235;
+X-Het13;Water+borate;9.3;X;R;27;X;0.24;-1.145;
+X-Het14;Water+borate;9.3;X;R;27;X;0.19;-1.145;
+X-Het15;Water;6.7;X;R;27;X;0.00;-0.35;
+X-Het16;Water;6.7;X;R;27;X;0.12;-0.35;
+X-Het17;Water+0.1M LiCl+0.01% gelatine;X;X;R;27;X;0.30;-1.024;
+X-Het18;50% EtOH with Britton-Robinson+0.1M KCl+0.01% gelatine;2.9;X;R;27h;X;0.31;-0.29;
+X-Het18;50% EtOH with Britton-Robinson+0.1M KCl+0.01% gelatine;5.0;X;R;27h;X;0.40;-0.48;
+X-Het18;50% EtOH with Britton-Robinson+0.1M KCl+0.01% gelatine;7.55;X;R;27h;X;0.45;-0.63;
+X-Het19;Water+buffer;3.1;X;R;27h;X;0.16;-0.30;
+X-Het19;10% EtOH;X;X;R;27h;X;0;-0.40;
+X-Het20;50% EtOH;6.7;X;R;27h;X;0.75;-1.91;
+X-Het21;Water with Britton-Robinson;0.0;X;R;27h;X;0.13;-0.06;
+X-Het22;Water with Britton-Robinson;0.0;X;R;27h;X;0.15;-0.04;
+X-Het22;Water with Britton-Robinson;0.0;X;R;27h;X;0.26;-0.04;
+X-Het23;Water+buffer;1.0;X;R;27h;X;0.22;-0.87;
+X-Het23;Water+buffer;8;X;R;27h;X;0.52;-1.37;
+X-Het24;50% EtOH;6.7;X;R;27h;X;0.67;-1.97;
+X-Het25;10% EtOH with Prideau-Ward;4.2;X;R;27h;X;0.29;-0.55;
+X-Het25;0.1M NaOH in 10% EtOH;X;X;R;27h;X;0.21;-1.01;
+X-Het26;10% EtOH with Prideau-Ward;4.2;X;R;27h;X;0.44;-0.69;
+X-Het26;0.1M NaOH in 10% EtOH;X;X;R;27h;X;0.42;-1.06;
+X-Het27;50% dioxane with Britton-Robinson+Me4N+;7.1;X;R;27h;X;0.38;-1.96;
+X-Het28;50% dioxane with Britton-Robinson+Me4N+;7.1;X;R;27h;X;0.34;-1.87;
+X-Het29;Water;14;X;R;27h;X;1.10;-1.47;
+X-Het30;Water+buffer;1;X;R;27h;X;0.43;-1.07;
+X-Het30;Water+buffer;2;X;R;27h;X;0.38;-1.11;
+X-Het30;Water+buffer;3;X;R;27h;X;0.29;-1.16;
+X-Het30;Water+buffer;7;X;R;27h;X;0.19;-1.21;
+X-Het30;Water+buffer;8;X;R;27h;X;0.13;-1.26;
+X-Het31;Water;6.7;X;R;29h;X;0.18;-1.97;
+X-Het32;Water;6.7;X;R;29h;X;0.17;-1.91;
+X-Het33;50% dioxane with Britton-Robinson+Me4N+;7.45;X;R;29h;X;0.54;-1.58;

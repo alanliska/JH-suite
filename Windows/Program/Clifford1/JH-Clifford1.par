@@ -1,0 +1,9 @@
+b(Compound AaBb);Coeff1;Coeff2
+1;14.8;-8.5
+2;48.7;-37.5
+
+Compound ABb
+pKs = (1+b)*14.8-8.5*DeltaX
+
+Compound A2Bb
+pKs = (2+b)*48.7-37.5*DeltaX

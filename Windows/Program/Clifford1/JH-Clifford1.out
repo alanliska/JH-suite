@@ -1,0 +1,23 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure CLIFFORD I * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-12-30 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+RESULTS
+================================================================================
+Solubility product, pKs =  82.35
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+Na2SeO3
+Na2SeO3 = 2 Na+ + SeO3-2
+     log_k  -82.35
+================================================================================
+REFERENCES:
+[1] A. F. Clifford, J. Phys. Chem. 63(8) (1959) 1227-1231.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Clifford1.exe terminated NORMALLY, 30.12.2017, 23:25:46.

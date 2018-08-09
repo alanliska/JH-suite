@@ -1,0 +1,33 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure HAMMETT I * ============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-26 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Acid: ArOH
+Medium: H2O
+Substituents:
+m- (1): -
+m- (2): -
+p-: CH3
+Hammett constants:
+Rho =  2.23
+Sigma_m1 =  0.00
+Sigma_m2 =  0.00
+Sigma_p = -0.14
+================================================================================
+RESULTS
+================================================================================
+pKa(subst.)-pKa(parental) = -0.31
+================================================================================
+REFERENCES:
+[1] Otto Exner: Korelacni vztahy v organicke chemii. SNTL/Alfa, Praha 1981.
+[2] N. B. Chapman, J. Shorter: Correlation Analysis in Chemistry, Recent
+    Advances. Plenum Press, New York 1978.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Hammett1.exe terminated NORMALLY, 26.03.2018, 11:05:45.

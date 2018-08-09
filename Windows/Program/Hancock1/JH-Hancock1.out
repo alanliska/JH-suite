@@ -1,0 +1,32 @@
+============================ * JH PROGRAM SUITE * ==============================
+===================== * Procedure HANCOCK-MARSICANO I * ========================
+Version 1.03 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT DATA
+================================================================================
+Lewis acid: 	Hg+2	Lewis base: 	Br-
+Lewis acid parameters: 
+EA =  1.35
+CA =  0.83
+Lewis base parameters: 
+EB = -1.79
+CB = 15.60
+================================================================================
+RESULTS
+================================================================================
+Stability constant, log K1 =  10.53
+Metal-ligand bond ionicity, I = 1.63
+ 
+PHREEQC STYLE COMPATIBLE INPUT
+Hg+2 + Br- = HgBr+
+     log_k   10.53
+================================================================================
+REFERENCES:
+[1] Robert D. Hancock, Fabrizio Marsicano, Inorganic Chemistry 17(3) (1978) 560
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Hancock1.exe terminated NORMALLY, 12.10.2017, 16:41:23.

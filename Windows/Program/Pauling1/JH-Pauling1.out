@@ -1,0 +1,28 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure PAULING I * =============================
+Version 1.02 for Windows (32 bit)
+Compiled 2018-03-18 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT DATA
+================================================================================
+Acid: 	H2AsO4-
+C = 	7
+================================================================================
+RESULTS
+================================================================================
+pKa =   7.00
+ 
+PHREEQC STYLE COMPATIBLE INPUT
+H2AsO4- = HAsO4-2 + H+
+     log_k   -7.00
+ 
+================================================================================
+REFERENCES:
+[1] Ronald Rich: Periodic Correlations. W.A.Benjamin, Inc., New York, Amsterdam
+    1965.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Pauling1.exe terminated NORMALLY, 18.03.2018, 20:19:46.

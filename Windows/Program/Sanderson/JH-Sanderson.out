@@ -1,0 +1,72 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure SANDERSON * =============================
+Version 1.02 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT
+================================================================================
+Gaseous state
+
+Overall charge = -2
+================================================================================
+RESULTS
+================================================================================
+Electronegativity of the species =   2.809
+Used cation = Ag(I)
+
+Atom	Atomic charge	Atomization enthalpy
+====	=============	====================
+F(1)	 -0.379		 79.1
+Si(IV)	  0.292		455.6
+F(1)	 -0.379		 79.1
+F(1)	 -0.379		 79.1
+F(1)	 -0.379		 79.1
+F(1)	 -0.379		 79.1
+F(1)	 -0.379		 79.1
+
+Bond   	Order	Coef.	d (pm)	tc	ti	Ec	Ei	Etot
+=======	=====	=====	======	=====	=====	======	======	======
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+Si(IV)-F(1)	1	1.000	1.500	0.664	0.336	 241.6	 926.1	 471.5
+
+All energy values are in kJ.mol-1.
+
+Enthalpy of formation = -1898.5 kJ.mol-1
+
+WARNING!
+Procedure for bond energy calculations was parametrized for uncharged
+uncharged species only.
+================================================================================
+REFERENCES:
+[1] Robert Thomas Sanderson: Chemical Bonds and Bond Energy. Academic Press,
+ Inc., New York 1971.
+[2] Robert Thomas Sanderson: Chemical Bonds and Bond Energy, Second Edition.
+ Academic Press, Inc., New York 1976.
+[3] Robert Thomas Sanderson: Polar Covalence. Academic Press, Inc., New York
+ 1983.
+[4] Robert Thomas Sanderson, J. Chem. Educ. 29(11) (1952) 539-544.
+[5] Robert Thomas Sanderson, J. Chem. Educ. 31(1) (1954) 2-7.
+[6] Robert Thomas Sanderson, J. Chem. Educ. 31(5) (1954) 238-245.
+[7] Robert Thomas Sanderson, J. Chem. Educ. 32(3) (1955) 140-141.
+[8] Robert Thomas Sanderson, J. Chem. Educ. 41(6) (1964) 331-333.
+[9] Robert Thomas Sanderson, J. Chem. Educ. 41(7) (1964) 361-366.
+[10] Robert Thomas Sanderson, J. Inorg. Nucl. Chem. 27 (1965) 989-992.
+[11] Robert Thomas Sanderson, J. Am. Chem. Soc. 79(6) (1975) 1367-1372.
+[12] Robert Thomas Sanderson, J. Org. Chem. 47 (1982) 3835-3839.
+[13] Robert Thomas Sanderson, J. Am. Chem. Soc. 105 (1983) 2259-2261.
+[14] Robert Thomas Sanderson, Inorg. Chem. 25 (1986) 1856-1858.
+[15] Robert Thomas Sanderson, Inorg. Chem. 25 (1986) 3518-3522.
+[16] Robert Thomas Sanderson, J. Chem. Educ. 65(2) (1988) 112-118.
+[17] Robert Thomas Sanderson, J. Chem. Educ. 65(3) (1988) 227-231.
+[18] Stepan S. Batsanov, Andrei S. Batsanov: Introduction to Structural
+ Chemistry. Springer Science+Business Media, Dordrecht 2012.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Sanderson.exe terminated NORMALLY, 12.10.2017, 19:08:17.

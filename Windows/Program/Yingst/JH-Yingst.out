@@ -1,0 +1,28 @@
+============================ * JH PROGRAM SUITE * ==============================
+======================= * Procedure YINGST-MCDANIEL * ==========================
+Version 1.01 for Windows (32 bit)
+Compiled 2017-10-12 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+Lewis acid parameters: 
+alpha =  4.06
+beta =  0.14
+Lewis base parameters: 
+En = -0.27
+H =  4.94
+================================================================================
+RESULTS
+================================================================================
+Stability constant, log K1 =   1.00
+ 
+PHREEQC STYLE COMPATIBLE INPUT
+Cu+ + F- = CuF
+     log_k    1.00
+================================================================================
+REFERENCES:
+[1] Austin Yingst, Darl H. McDaniel, Inorganic Chemistry 6(5) (1967) 1067.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Yingst.exe terminated NORMALLY, 19.10.2017, 15:00:34.

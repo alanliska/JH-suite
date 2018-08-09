@@ -1,0 +1,62 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure ZUMAN IV * =============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Compound: Het6-X
+Substituent(s):
+X: Cl
+================================================================================
+RESULTS
+================================================================================
+Solvent: Water+acetate
+pH =  4.50
+Mechanism: S1
+Oxidation or reduction: R
+Equation used: 2 (according to the literature)
+Rho(pi)R =  0.37 V
+EH(SCE) = -0.65 V vs. SCE
+Remark: 
+
+Sigma_para =  0.23
+EH = -0.65 V vs. SCE
+Rho =  0.37 V
+E = -0.56 V vs. SCE
+
+Solvent: Water+NH3+NH4Cl
+pH =  9.25
+Mechanism: S1
+Oxidation or reduction: R
+Equation used: 2 (according to the literature)
+Rho(pi)R =  0.26 V
+EH(SCE) = -0.89 V vs. SCE
+Remark: 
+
+Sigma_para =  0.23
+EH = -0.89 V vs. SCE
+Rho =  0.26 V
+E = -0.83 V vs. SCE
+
+
+Explanation of abbreviations:
+
+Solvents: EtOH=ethanol, i-PrOH=isopropanol, MeOH=methanol
+Mechanism: S1=substitution on reducable heterocyclic ring, S2=substitution on
+benzene ring annelated to reducable heterocyclic ring and simultaneous reduction
+on both rings, S3=substitution on phenyl ring bonded to reducable heterocyclic
+ring, change of rings bonded to heterocyclic ring, S4=influence of substitution
+in benzene ring on reduction in the neighbouring chain on heterocyclic ring
+Oxidation or reduction: O=oxidation, R=reduction
+Potentials: EH=parental derivative (all R´s=H), E=desired derivative
+================================================================================
+REFERENCES:
+[1] Petr Zuman: Vplyvy substituentov v organickej polarografii. Nakladatelstvo
+    Alfa, Bratislava 1970.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Zuman4.exe terminated NORMALLY, 25.03.2018, 22:07:11.

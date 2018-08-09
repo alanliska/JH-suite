@@ -1,0 +1,376 @@
+============================ * JH PROGRAM SUITE * ==============================
+======== * Group contribution scheme (organic compounds & polymers) * ==========
+Version 1.02 for Windows (32 bit)
+Compiled 2018-03-18 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+-O-CH3	1
+-C6H5	1
+6ring	1
+
+Molar weight =  108.14 g.mol-1
+Molar parachor =  266.10 cm3.mol-1.(mJ.m-2)1/4
+Molar polarization =  36.34 cm3.mol-1
+Average dipole moment =  3.94e-30 C.m =  1.18 Debye
+Molar magnetic susceptibility =   72.50e-6 cm3.mol-1
+Rao큦 function =      6 cm1/3.s-1/3.mol-1
+
+I. GASEOUS STATE
+================
+*Thermodynamic properties*
+
+Standard enthalpy of formation =  -82.0 kJ.mol-1
+Standard entropy of formation = 262.00 J.K-1.mol-1
+Standard free energy of formation = -172.4 kJ.mol-1
+
+II. LIQUID STATE
+================
+*General properties*
+
+Standard molar volume = 129.6 cm3.mol-1
+Density = 0.834 g.cm-3
+Molar volume expansion = 0.063 cm3.mol-1.K-1
+Temperature coeff. of vol. expansion = 0.000483 K-1
+
+*Solubility / miscibility*
+
+Input volume fraction of calculated compound = 1.000
+Input volume fraction of the second component = 0.000
+Input solubility parameter of the second component =    0.000 J1/2.cm-3/2
+
+Solubility parameter =   19.029 J1/2.cm-3/2
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2
+Calculated component will be well miscible with / soluble in the
+second one.
+Solubility parameter =   15.316 J1/2.cm-3/2 (Small)
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2 (Small)
+Calculated component will be well miscible with / soluble in the
+second one.
+
+*Surface properties*
+
+Surface energy of the calculated component =  17.8 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  17.8 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+Surface energy of the calculated component =  38.1 mJ.m-2
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  38.1 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+Using Small definition of solubility parameter:
+Surface energy of the calculated component =  28.5 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  28.5 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+*Mechanical properties*
+
+Poisson큦 ratio =   6.6
+Young큦 elasticity module =  -0.462e-6 g.cm-1.s-1
+Skid elasticity module =  -0.031e-6 g.cm-1.s-1
+Volume elasticity module =   0.013e-6 g.cm-1.s-1
+
+*Optical properties*
+
+Molar refraction =   32.7 g.mol-1 (Lorentz-Lorenz)
+Refractive index = 1.419 (Lorentz-Lorenz)
+Molar refraction =   56.4 g.mol-1 (Gladstone-Dale)
+Refractive index = 1.435 (Gladstone-Dale)
+Relative permittivity =  2.17
+
+*General properties, temperature dependence*
+
+Custom temperature =  71.85 캜
+Molar volume = 132.5 cm3.mol-1 (71.85 캜)
+Density = 0.816 g.cm-3 (71.85 캜)
+
+*Solubility / miscibility, temperature dependence*
+
+Input volume fraction of calculated compound = 1.000
+Input volume fraction of the second component = 0.000
+Input solubility parameter of the second component =    0.000 J1/2.cm-3/2
+
+Solubility parameter =   18.818 J1/2.cm-3/2
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2
+Calculated component will be well miscible with / soluble in the
+second one.
+Solubility parameter =   14.978 J1/2.cm-3/2 (Small)
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2 (Small)
+Calculated component will be well miscible with / soluble in the
+second one.
+
+*Surface properties, temperature dependence*
+
+Surface energy of the calculated component =  16.3 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  16.3 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+Surface energy of the calculated component =  37.5 mJ.m-2
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  37.5 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+Using Small definition of solubility parameter:
+Surface energy of the calculated component =  27.7 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  27.7 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+*Mechanical properties*
+
+Poisson큦 ratio =   6.6
+Young큦 elasticity module =  -0.397e-6 g.cm-1.s-1
+Skid elasticity module =  -0.026e-6 g.cm-1.s-1
+Volume elasticity module =   0.011e-6 g.cm-1.s-1
+
+*Optical properties, temperature dependence*
+
+Molar refraction =   32.7 g.mol-1 (Lorentz-Lorenz)
+Refractive index = 1.409 (Lorentz-Lorenz)
+Molar refraction =   56.4 g.mol-1 (Gladstone-Dale)
+Refractive index = 1.426 (Gladstone-Dale)
+Relative permittivity =  2.13
+
+*Thermodynamic properties*
+
+Molar heat capacity = 195.7 J.K-1.mol-1 (25 캜)
+Temperature coeff. of heat capacity  = 0.0012 K-1
+Custom temperature =  71.85 캜
+Molar heat capacity = 206.7 J.K-1.mol-1 (71.85 캜)
+Molar vaporization inner energy =  46.9 kJ.mol-1 (71.85 캜)
+(cohession energy)
+Molar vaporization enthalpy =  49.8 kJ.mol-1 (71.85 캜)
+
+III. AMORPHOUS STATE
+====================
+
+*Optical properties*
+
+Molar refraction =  165.0 g.mol-1 (25 캜, Vogel)
+Refractive index = 1.526 (25 캜, Vogel)
+
+IV. SEMICRYSTALLINE STATE
+=========================
+*General properties*
+
+Degree of crystalinity = 1.000
+Molar volume = 106.6 cm3.mol-1 (71.85 캜)
+Density = 1.014 g.cm-3 (71.85 캜)
+Density = 1.146 g.cm-3 (71.85 캜, alternative estimation)
+
+*Solubility / miscibility*
+
+Input volume fraction of calculated compound = 1.000
+Input volume fraction of the second component = 0.000
+Input solubility parameter of the second component =    0.000 J1/2.cm-3/2
+
+Solubility parameter =   20.982 J1/2.cm-3/2
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2
+Calculated component will be well miscible with / soluble in the
+second one.
+Solubility parameter =   18.621 J1/2.cm-3/2 (Small)
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2 (Small)
+Calculated component will be well miscible with / soluble in the
+second one.
+
+*Surface properties*
+
+Surface energy of the calculated component =  38.8 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  38.8 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+Surface energy of the calculated component =  43.4 mJ.m-2
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  43.4 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+Using Small definition of solubility parameter:
+Surface energy of the calculated component =  37.0 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  37.0 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+*Mechanical properties*
+
+Poisson큦 ratio =   6.3
+Young큦 elasticity module =  -1.727e-6 g.cm-1.s-1
+Skid elasticity module =  -0.119e-6 g.cm-1.s-1
+Volume elasticity module =   0.050e-6 g.cm-1.s-1
+
+*Optical properties*
+
+Molar refraction =   32.7 g.mol-1 (Lorentz-Lorenz)
+Refractive index = 1.526 (Lorentz-Lorenz)
+Molar refraction =   56.4 g.mol-1 (Gladstone-Dale)
+Refractive index = 1.529 (Gladstone-Dale)
+Relative permittivity =  2.55
+
+*Thermodynamic properties*
+
+Molar heat capacity = 133.3 J.K-1.mol-1 (25 캜)
+
+V. CRYSTALLINE STATE
+====================
+*General properties*
+
+Standard molar volume =  92.7 cm3.mol-1 (25 캜)
+Density = 1.166 g.cm-3 (25 캜)
+Molar volume expansion = 0.028 cm3.mol-1.K-1
+Temperature coeff. of vol. expansion = 0.000304 K-1
+
+*Solubility / miscibility*
+
+Input volume fraction of calculated compound = 1.000
+Input volume fraction of the second component = 0.000
+Input solubility parameter of the second component =    0.000 J1/2.cm-3/2
+
+Solubility parameter =   22.495 J1/2.cm-3/2
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2
+Calculated component will be well miscible with / soluble in the
+second one.
+Solubility parameter =   21.403 J1/2.cm-3/2 (Small)
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2 (Small)
+Calculated component will be well miscible with / soluble in the
+second one.
+
+*Surface properties*
+
+Surface energy of the calculated component =  67.8 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  67.8 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+Surface energy of the calculated component =  47.6 mJ.m-2
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  47.6 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+Using Small definition of solubility parameter:
+Surface energy of the calculated component =  44.6 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  44.6 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+*Mechanical properties*
+
+Poisson큦 ratio =   6.1
+Young큦 elasticity module =  -4.413e-6 g.cm-1.s-1
+Skid elasticity module =  -0.312e-6 g.cm-1.s-1
+Volume elasticity module =   0.132e-6 g.cm-1.s-1
+
+*Optical properties*
+
+Molar refraction =   32.7 g.mol-1 (Lorentz-Lorenz)
+Refractive index = 1.624 (Lorentz-Lorenz)
+Molar refraction =   56.4 g.mol-1 (Gladstone-Dale)
+Refractive index = 1.608 (Gladstone-Dale)
+Relative permittivity =  2.93
+
+*Thermodynamic properties*
+
+Molar enthalpy of melting =    4.2 J.mol-1
+Molar entropy of melting =   0.01 J.K-1.mol-1
+
+*General properties, temperature dependence*
+
+Custom temperature =  71.85 캜
+Molar volume =  94.1 cm3.mol-1 (25 캜)
+Density = 1.150 g.cm-3 (25 캜)
+
+Molar volume =  81.4 cm3.mol-1 (-273.15 캜)
+Density = 1.329 g.cm-3 (-273.15 캜)
+
+*Solubility / miscibility, temperature dependence*
+
+Input volume fraction of calculated compound = 1.000
+Input volume fraction of the second component = 0.000
+Input solubility parameter of the second component =    0.000 J1/2.cm-3/2
+
+Solubility parameter =   22.337 J1/2.cm-3/2
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2
+Calculated component will be well miscible with / soluble in the
+second one.
+Solubility parameter =   21.103 J1/2.cm-3/2 (Small)
+Specific mixing enthalpy =   0.0 J1/2.cm-3/2 (Small)
+Calculated component will be well miscible with / soluble in the
+second one.
+
+Input melting point =  76.85 캜
+Melting molar volume change =  38.6 cm3.mol-1 (76.85 캜, extrapolated)
+Melting molar volume change =  12.0 cm3.mol-1 (76.85 캜)
+
+*Surface properties, temperature dependence*
+
+Surface energy of the calculated component =  64.1 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  64.1 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+Surface energy of the calculated component =  47.2 mJ.m-2
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  47.2 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+Using Small definition of solubility parameter:
+Surface energy of the calculated component =  43.7 mJ.m-2 (from parachor)
+Surface energy of the second component =   0.0 mJ.m-2
+Intersurface energy between both components =  43.7 mJ.m-2
+Adhession work =   0.0 mJ.m-2
+Both surfaces tend to adhese.
+
+*Mechanical properties*
+
+Poisson큦 ratio =   6.1
+Young큦 elasticity module =  -4.012e-6 g.cm-1.s-1
+Skid elasticity module =  -0.283e-6 g.cm-1.s-1
+Volume elasticity module =   0.120e-6 g.cm-1.s-1
+
+*Optical properties, temperature dependence*
+
+Molar refraction =   32.7 g.mol-1 (Lorentz-Lorenz)
+Refractive index = 1.613 (Lorentz-Lorenz)
+Molar refraction =   56.4 g.mol-1 (Gladstone-Dale)
+Refractive index = 1.600 (Gladstone-Dale)
+Relative permittivity =  2.89
+
+*Thermodynamic properties, temperature dependence*
+
+Molar heat capacity = 133.3 J.K-1.mol-1 (25 캜)
+Temperature coeff. of heat capacity  = 0.0030 K-1
+Custom temperature =  71.85 캜
+Molar heat capacity = 223.2 J.K-1.mol-1 (71.85 캜)
+
+WARNING
+=======
+Please note that not every molecule property is parametrized within requested
+set of group contributions. Therefore, some predicted values can be mislead.
+Before further use, please check the file JH-Polymer.dat for presence of needed
+data.
+================================================================================
+REFERENCES:
+[1] Jiri Vohlidal, Alois Julak, Karel Stulik: Chemicke a analyticke tabulky.
+ GRADA Publishing, Praha 1999.
+[2] Laurens van Krevelen, K. te Nijenhuis: Properties of Polymers, 4th Edition.
+ Elsevier, Amsterdam 2009.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Polymer.exe terminated NORMALLY, 18.03.2018, 20:05:57.

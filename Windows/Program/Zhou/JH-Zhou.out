@@ -1,0 +1,71 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================= * Procedure ZHOU * ===============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-11 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Cationic reactant: H+
+Diffusion coefficient:   9.30e-5 cm2.s-1
+
+Anionic reactant: PO4-3
+Diffusion coefficient:   0.61e-5 cm2.s-1
+
+Distance of closest approach = 1300.0 pm (charge approximated)
+
+Debye-Hueckel interionic potential =  -4.1 kJ/mol
+
+Temperature =  25.00 °C
+Solvent relative permittivity =  78.54
+Ionic strength =  0.000 mol/l
+================================================================================
+RESULTS
+================================================================================
+Forward rate constant, log k1:  16.30 (bimolecular)
+Backward rate constant, log k-1:  14.84 (unimolecular)
+Outer-sphere association constant, log K(os):   1.46
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+RATES
+Forward
+-start
+10 if (MOL("[H+]+") <= 1e-15) then goto 200
+20 if (MOL("[PO4-3]-3") <= 1e-15) then goto 200
+100 moles = 1.987564122384e+016 * MOL("[H+]+") * MOL("[PO4-3]-3")
+200 SAVE moles
+-end
+
+KINETICS
+Forward
+-formula [H+]+ -1 [PO4-3]-3 -1 [HPO4-2]-2 1
+
+RATES
+Backward
+-start
+10 if (MOL("[HPO4-2]-2") <= 1e-15) then goto 200
+100 moles = 6.919899279015e+014 * MOL("[HPO4-2]-2")
+200 SAVE moles
+-end
+
+KINETICS
+Backward
+-formula [H+]+ 1 [PO4-3]-3 1 [HPO4-2]-2 -1
+================================================================================
+REFERENCES:
+[1] Manfred Eigen, Z. Phys. Chem. 1 (1954) 176-200.
+[2] Manfred Eigen, Z. Electrochem. 64 (1960) 115-130.
+[3] Raymond M. Fuoss, J. Am. Chem. Soc. 80(19) (1958) 5059-5061.
+[4] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+[5] Ralph G. Wilkins: Kinetics and Mechanism of Reactions of Transition Metal
+ Complexes, 2nd Edition. Wiley-VCH, Weinheim 2002.
+[6] G. Q. Zhou, W. Z. Zhong, Eur. J. Biochem. 128 (1982) 383.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Zhou.exe terminated NORMALLY, 11.02.2018, 20:21:05.

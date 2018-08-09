@@ -1,0 +1,36 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure YAMADA * ==============================
+Version 1.00 for Windows (32 bit)
+Compiled 2017-12-29 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2017
+================================================================================
+INPUT DATA
+================================================================================
+Lewis acid: 	Tl+	Lewis base: 	NO2-
+Lewis acid parameters: 
+alpha =  1.24
+beta =  0.03
+Lewis base parameters: 
+En =  1.73
+H =  4.89
+================================================================================
+RESULTS
+================================================================================
+Stability constant, log K1 =   0.55 (inner sphere complex)
+
+PHREEQC STYLE COMPATIBLE INPUT
+Tl+ + NO2- = TlNO2
+     log_k    0.55
+================================================================================
+REFERENCES:
+[1] Shinkichi Yamada, Motoharu Tanaka, J. Inorg. Nucl. Chem. 37(2) (1975)
+ 587-589.
+[2] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2017, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Yamada.exe terminated NORMALLY, 29.12.2017, 21:06:51.

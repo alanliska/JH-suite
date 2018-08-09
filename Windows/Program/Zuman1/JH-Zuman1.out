@@ -1,0 +1,332 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure ZUMAN I * =============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Compound: Ar-CHO
+Substituents:
+o- (1): -
+o- (2): -
+m- (1): -
+m- (2): -
+p-: CH3
+================================================================================
+RESULTS
+================================================================================
+Solvent: Water
+pH =  0.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.32 V
+EH(SCE) = -0.78 V vs. SCE
+Remark: 1st wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -0.78 V vs. SCE
+Rho =  0.32 V
+E = -0.83 V vs. SCE
+
+Solvent: Water
+pH =  0.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 30 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.32 V
+EH(SCE) = -0.78 V vs. SCE
+Remark: 1st wave
+
+Sigma_para(-) =  0.00
+EH = -0.78 V vs. SCE
+Rho =  0.32 V
+E = -0.78 V vs. SCE
+Warning: only para-position is calculated!
+
+Solvent: Water
+pH = 13.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.17 V
+Rho(pi)R =  0.32 V
+EH(SCE) = -1.40 V vs. SCE
+Remark: 2nd wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.40 V vs. SCE
+Rho =  0.32 V
+E = -1.45 V vs. SCE
+
+Solvent: Water
+pH = 13.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 30 (according to the literature)
+Delta(pi)R =  0.17 V
+Rho(pi)R =  0.32 V
+EH(SCE) = -1.40 V vs. SCE
+Remark: 2nd wave
+
+Sigma_para(-) =  0.00
+EH = -1.40 V vs. SCE
+Rho =  0.32 V
+E = -1.40 V vs. SCE
+Warning: only para-position is calculated!
+
+Solvent: Water
+pH = 13.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 37 (according to the literature)
+Delta(pi)R =  0.17 V
+Rho(pi)R =  0.32 V
+EH(SCE) = -1.40 V vs. SCE
+Remark: 2nd wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+ES_ortho (1) =  0.00
+ES_ortho (2) =  0.00
+EH = -1.40 V vs. SCE
+Rho =  0.32 V
+E = -1.40 V vs. SCE
+Warning: only ortho-position is calculated!
+
+Solvent: Water
+pH =  7.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.34 V
+EH(SCE) = -1.23 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.23 V vs. SCE
+Rho =  0.34 V
+E = -1.29 V vs. SCE
+
+Solvent: 50% dioxane
+pH =  0.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.29 V
+EH(SCE) = -0.87 V vs. SCE
+Remark: 1st wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -0.87 V vs. SCE
+Rho =  0.29 V
+E = -0.92 V vs. SCE
+
+Solvent: 60% EtOH
+pH =  2.25
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.31 V
+EH(SCE) = -1.02 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.02 V vs. SCE
+Rho =  0.31 V
+E = -1.07 V vs. SCE
+
+Solvent: 60% EtOH
+pH =  2.25
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 37 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.31 V
+EH(SCE) = -1.02 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+ES_ortho (1) =  0.00
+ES_ortho (2) =  0.00
+EH = -1.02 V vs. SCE
+Rho =  0.31 V
+E = -1.02 V vs. SCE
+Warning: only ortho-position is calculated!
+
+Solvent: 60% EtOH
+pH =  3.15
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.30 V
+EH(SCE) = -1.08 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.08 V vs. SCE
+Rho =  0.30 V
+E = -1.13 V vs. SCE
+
+Solvent: 60% EtOH
+pH =  3.15
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 37 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.30 V
+EH(SCE) = -1.08 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+ES_ortho (1) =  0.00
+ES_ortho (2) =  0.00
+EH = -1.08 V vs. SCE
+Rho =  0.30 V
+E = -1.08 V vs. SCE
+Warning: only ortho-position is calculated!
+
+Solvent: 25% EtOH
+pH =  2.20
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.16 V
+EH(SCE) = -1.01 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.01 V vs. SCE
+Rho =  0.16 V
+E = -1.04 V vs. SCE
+
+Solvent: Water
+pH = 12.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.06 V
+EH(SCE) = -1.48 V vs. SCE
+Remark: 2nd wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.48 V vs. SCE
+Rho =  0.06 V
+E = -1.49 V vs. SCE
+
+Solvent: Water
+pH =  7.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.56 V
+EH(SCE) = -1.34 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.34 V vs. SCE
+Rho =  0.56 V
+E = -1.44 V vs. SCE
+
+Solvent: Water
+pH =  0.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.27 V
+EH(SCE) = -0.87 V vs. SCE
+Remark: 1st wave
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -0.87 V vs. SCE
+Rho =  0.27 V
+E = -0.92 V vs. SCE
+
+Solvent: Water
+pH =  7.00
+Mechanism: N
+Oxidation or reduction: R
+Equation used: 27 (according to the literature)
+Delta(pi)R =  0.00 V
+Rho(pi)R =  0.26 V
+EH(SCE) = -1.46 V vs. SCE
+Remark: 
+
+Sigma_ortho (1) =  0.00
+Sigma_ortho (2) =  0.00
+Sigma_meta (1) =  0.00
+Sigma_meta (2) =  0.00
+Sigma_para = -0.17
+EH = -1.46 V vs. SCE
+Rho =  0.26 V
+E = -1.50 V vs. SCE
+
+
+Explanation of abbreviations:
+
+Solvents: EtOH=ethanol, i-PrOH=isopropanol, MeOH=methanol
+Mechanism: E=electrophilic, N=nucleophilic
+Oxidation or reduction: O=oxidation, R=reduction
+Potentials: EH=parental derivative (all R´s=H), E=desired derivative
+================================================================================
+REFERENCES:
+[1] Petr Zuman: Vplyvy substituentov v organickej polarografii. Nakladatelstvo
+    Alfa, Bratislava 1970.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Zuman1.exe terminated NORMALLY, 25.03.2018, 21:22:42.

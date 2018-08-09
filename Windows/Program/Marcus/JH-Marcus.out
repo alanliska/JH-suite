@@ -1,0 +1,52 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure MARCUS * ==============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-11 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+INPUT
+================================================================================
+Oxidation agent: Fe(CN)6-3
+Self electron exchange rate constant, log k11:   3.85
+Redox potential, E°:   0.54 V
+
+Reduction agent: W(CN)8-4
+Self electron exchange rate constant, log k22:   4.85
+Redox potential, E°:   0.46 V
+
+Frequency factor, Z:   1.00e11
+Transmission coefficient, f:   0.91
+================================================================================
+RESULTS
+================================================================================
+Forward rate constant, log k12:   5.06 (bimolecular)
+Backward rate constant, log k21:   3.60 (bimolecular)
+Equilibrium constant, log K:   1.45
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+RATES
+Reakce
+-start
+10 if (MOL("[Fe(CN)6-3]-3") <= 1e-15) then goto 200
+20 if (MOL("[W(CN)8-4]-4") <= 1e-15) then goto 200
+100 moles = 113984.7848534 * MOL("[Fe(CN)6-3]-3") * MOL("[W(CN)8-4]-4")
+200 SAVE moles
+-end
+
+KINETICS
+Reakce
+-formula [Fe(CN)6-3]-3 -1 [W(CN)8-4]-4 -1 [Fe(CN)6-4]-4 1 [W(CN)8-3]-3 1
+================================================================================
+REFERENCES:
+[1] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+[2] Ralph G. Wilkins: Kinetics and Mechanism of Reactions of Transition Metal
+ Complexes, 2nd Edition. Wiley-VCH, Weinheim 2002.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Marcus.exe terminated NORMALLY, 12.02.2018, 14:51:12.

@@ -1,0 +1,58 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure SIMAMORA * =============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-03-25 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+RESULTS
+================================================================================
+Group	Number of groups
+=====	================
+=C< arom.	2
+=CH- arom.	5
+-F arom.	1
+-NO2 arom.	1
+
+Number of aliphatic carbon atoms = 0
+Number of non-ring and non-terminal sp3 atoms = 0
+Number of non-ring and non-terminal sp2 atoms = 1
+Effective number of torsional angles = 0
+Number of stable conformations = 1
+Rotational symmetry number = 2
+
+*Melting point*
+
+Molar enthalpy of melting =  19.12 kJ.mol-1
+Molar entropy of melting =  50.72 J.K-1.mol-1
+Melting point = 103.90 °C
+
+*Boiling point*
+
+Molar enthalpy of evaporation =  45.94 kJ.mol-1
+
+Molar entropy of evaporation =  88.00 J.K-1.mol-1 (Trouton)
+Normal boiling point = 248.92 °C (Trouton)
+
+Molar entropy of evaporation =  80.35 J.K-1.mol-1 (Mishra, Yalkowsky)
+Normal boiling point = 298.62 °C (Mishra, Yalkowsky)
+
+Molar entropy of evaporation =  86.00 J.K-1.mol-1 (mod. Walden)
+Normal boiling point = 261.06 °C (mod. Walden)
+================================================================================
+REFERENCES:
+[1] Robert S. Boethling (Ed.) et al: Handbook of Property Estimation Methods
+    for Chemicals: Environmental and Health Sciences. CRC Press LLC,
+    Boca Raton 2000.
+[2] Joseph F. Krzyzaniak, Paul B. Myrdal, Pahala Simamora, and Samuel H.
+    Yalkowsky, Ind. Eng. Chem. Res. 34 (1995) 2530-2535.
+[3] Pahala Simamora, Samuel H. Yalkowsky, Ind. Eng. Chem. Res. 33 (1994)
+    1405-1409.
+[4] Pahala Simamora, Allan H. Miller, Samuel H. Yalkowsky, J. Chem. Inf.
+    Comput. Sci. 33 (1993) 437-440.
+[5] P. Simamora, S. H. Yalkowsky, SAR and QSAR in Environmental Research, Vol.1,
+    pp. 293-300, Gordon and Breach Science Publishers S.A. 1993.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Simamora.exe terminated NORMALLY, 25.03.2018, 20:38:31.

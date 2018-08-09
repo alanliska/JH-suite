@@ -1,0 +1,41 @@
+=========================== * JH PROGRAM SUITE * ===============================
+========================== * Procedure MISONO I * ==============================
+Version 1.00 for Windows (32 bit)
+Compiled 2018-02-13 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+Lewis acid: Na+
+Lewis acid charge = 1
+Ion radius =  86.0 pm (Stockar)
+Electronegativity of the neutral atom =  0.9
+Parameter X =  1.003
+Ionization energy to the valence state =  5.140
+Subsequent ionization energy = 47.300
+Parameter Y =  0.935
+
+Lewis base: OH-
+Lewis base charge = -1
+Parameter alpha =   1.58
+Parameter beta =   0.40
+Parameter gamma =  -3.34
+================================================================================
+RESULTS
+================================================================================
+Formation constant, log K =  -1.38
+
+PHREEQC STYLE COMPATIBLE INPUT
+
+Na+ + OH- = NaOH
+     log_k   -1.38
+================================================================================
+REFERENCES:
+[1] Makoto Misono, Ei´ichiro Ochiai, Yasukazu Saito, Yukio Yoneda, J. Inorg.
+ Nucl. Chem. 29 (1967) 2685-2691.
+[2] Walter Gordy, WJ Orville Thomas, The Journal of Chemical Physics 24(2)
+ (1956) 439-444.
+[3] Klaus Stockar, Helvetica Chimica Acta 33(6) (1950) 1409-1420.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.25, 1997-2018, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================
+Execution of JH-Misono1.exe terminated NORMALLY, 13.02.2018; 16:33:35.

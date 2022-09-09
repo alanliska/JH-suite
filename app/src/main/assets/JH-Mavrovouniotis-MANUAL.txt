@@ -1,0 +1,90 @@
+============================ * JH PROGRAM SUITE * ==============================
+============== * Procedure Mavrovouniotis (organic compounds) * ================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains individual lines describing the type and number
+of fragments included in the calculated molecule as in the example of
+acetate ion (saved as JH-Mavrovouniotis.inp to 
+/mnt/sdcard/JH/Program/Mavrovouniotis/):
+
+-CH3;1
+-COO-;1
+
+(please note that the fragment definition is the same as in the database file
+JH-Mavrovouniotis.dat).
+
+II. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Mavrovouniotis.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Mavrovouniotis.b (the standalone program)
+
+JH-Mavrovouniotis.dat
+
+Group;G(kcal.mol-1)
+
+JH-Mavrovouniotis.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Mavrovouniotis.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+If the requested fragment is not present in the database file 
+JH-Mavrovouniotis.dat, it is possible to add manually the missing
+data. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Mavrovouniotis.b
+does not support interactive mode as well. It is necessary to input data through
+the file named JH-Mavrovouniotis.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+WARNING
+================================================================================
+Please note that not every molecule property is parametrized within requested
+set of group contributions. Therefore, some predicted values can be mislead.
+Before further use, please check the file JH-Mavrovouniotis.dat for presence 
+of needed data.
+================================================================================
+REFERENCES:
+[1] Michael L. Mavrovouniotis, The Journal of Biological Chemistry 266(22)
+ (1991) 14440-14445.
+[2] Michael L. Mavrovouniotis, Patrick Bayol, Tu-Kien Michael Lam, George
+ Stephanopoulos, Gregory Stephanopoulos, Biotechnology Techniques 2(1) (1988)
+ 23-28.
+[3] Michael L. Mavrovouniotis, Biotechnology and Bioengineering 36 (1990)
+ 1070-1082.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

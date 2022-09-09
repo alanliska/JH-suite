@@ -1,0 +1,20 @@
+198.2;122.5;0.584;0.965;0.113;0.0032;17.5;68.29;53.88;-37.93;0.210;-3.91e-4;2.06e-7;15.30;-0.88;-597.82;-11.202;300
+
+constant for normal boiling point estimation / K;
+constant for normal freezing point estimation / K;
+first constant for critical temperature estimation / K2;
+second constant for critical temperature estimation / K;
+first constant for critical pressure estimation / bar3;
+second constant for critical pressure estimation / bar3;
+constant for critical molar volume estimation / cm3.mol-1;
+constant for standard fusion enthalpy estimation / kJ.mol-1;
+constant for standard fusion free energy estimation / kJ.mol-1;
+first constant for heat capacity estimation / J.K-1.mol-1;
+second constant for heat capacity estimation / J.K-2.mol-1;
+third constant for heat capacity estimation / J.K-3.mol-1;
+fourth constant for heat capacity estimation / J.K-4.mol-1;
+constant for standard vaporization enthalpy estimation / kJ.mol-1;
+constant for standard freezing enthalpy estimation / kJ.mol-1;
+first constant for viscosity estimation;
+second constant for viscosity estimation;
+custom temperature

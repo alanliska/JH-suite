@@ -1,0 +1,82 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure ZUMAN II * =============================
+Version 1.00 for Android
+Compiled 2018-03-27 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains individual structure information in the style:
+
+Structural type;Substituent(1);Substituent(2)
+
+as in the example
+
+X-Het6;CH3;-
+
+or in case of disubstituted structures
+
+X-Het11-X;CH3;CH3
+
+(please note that both the structural type and substituent definitions are the
+same as in the database files JH-Zuman2-Rho.dat and JH-Zuman2-Sigma.dat).
+
+II. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Zuman2.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Zuman2.b (the standalone program)
+
+JH-Zuman2-Rho.dat
+
+Series;Solvent;pH;Mechanism;Ox-Red;Equation;Delta(pi)R;Rho(pi)R;EH(SCE);Remark
+
+JH-Zuman2-Sigma.dat
+
+Group;Sigma_m;Sigma_p;Sigma_o;ES_o;Sigma_p-;Sigma_m+;Sigma_p+;Sigma_I;Sigma_R
+
+JH-Zuman2.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Zuman2.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Zuman2.b
+does not support interactive mode as well. It is necessary to input data through
+the file named JH-Zuman2.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] Petr Zuman: Vplyvy substituentov v organickej polarografii. Nakladatelstvo
+    Alfa, Bratislava 1970.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

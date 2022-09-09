@@ -1,0 +1,102 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================ * Procedure MARCUS * ==============================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains the following sequence (saved as JH-Marcus.inp
+to /mnt/sdcard/JH/Program/Marcus/):
+
+Oxidation agent1;Stoich1;Reduction agent2;Stoich2;Reactant;Stoich3;
+Reduction agent1;Stoich4;Oxidation agent2;Stoich5;Product;Stoich6;
+Number of exchanged electrons;Title
+
+which refers to general redox reaction of type
+
+a Ox1 + b Red2 + k K = c Red1 + d Ox2 + l L
+
+Please make sure that the order is obeyed. Otherwise the calculation can
+either terminate with error or lead to wrong results.
+
+Some examples of correct syntax:
+
+Fe(CN)6-3;1;W(CN)8-4;1;0;0;Fe(CN)6-4;1;W(CN)8-3;1;0;0;1;Reaction
+Cr2O7-2;1;Fe+2;6;H+;14;Cr+3;2;Fe+3;6;H2O;7;6;Title
+Cl2;1;Hg2+2;1;0;0;Cl-;2;Hg+2;2;0;0;2;Name
+
+Some examples of wrong syntax:
+
+
+Fe(CN)6-4;1;W(CN)8-3;1;0;0;W(CN)8-4;1;Fe(CN)6-3;1;0;0;1;Reaction
+W(CN)8-4;1;Fe(CN)6-3;1;0;0;Fe(CN)6-4;1;W(CN)8-3;1;0;0;1;Title
+(oxidation agent must be first)
+
+II. Parameter file
+
+The parameter file JH-Marcus.par contains the value of Z
+(frequency factor).
+
+III. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Marcus.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Marcus.b (the standalone program)
+
+JH-Marcus.dat
+
+Oxidized form;Reduced form;log_k11;E°
+
+JH-Marcus.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Marcus.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+If the requested fragment is not present in the database file 
+JH-Marcus.dat, it is possible to add manually the missing data.
+Note: E° is not given for some couples ("X" in JH-Marcus.dat),
+especially for those which contain exotic species. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+JH-Marcus.b does not support interactive mode. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+[2] Ralph G. Wilkins: Kinetics and Mechanism of Reactions of Transition Metal
+ Complexes, 2nd Edition. Wiley-VCH, Weinheim 2002.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

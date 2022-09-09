@@ -1,0 +1,84 @@
+============================ * JH PROGRAM SUITE * ==============================
+================ * Procedure Klopman II (organic compounds) * ==================
+Version 1.00 for Android
+Compiled 2022-08-16 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains individual lines describing the type and number
+of fragments included in the calculated molecule as in the example of
+naphthalene (saved as JH-Klopman2.inp to /mnt/sdcard/JH/Program/Klopman2/):
+
+=C<;2
+=CH-;8
+
+(please note that the fragment definition is the same as in the database file
+JH-Klopman2.dat).
+
+II. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Klopman2.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Klopman2.b (the standalone program)
+
+JH-Klopman2.dat
+
+Group;Ci(contribution to log S, mol.m-3)
+
+JH-Klopman2.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Klopman2.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+If the requested fragment is not present in the database file 
+JH-Klopman2.dat, it is possible to add manually the missing
+data. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Klopman2.b
+does not support interactive mode as well. It is necessary to input data through
+the file named JH-Klopman2.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+WARNING
+================================================================================
+Please note that not every molecule property is parametrized within requested
+set of group contributions. Therefore, some predicted values can be mislead.
+Before further use, please check the file JH-Klopman2.dat for presence of needed
+data.
+================================================================================
+REFERENCES:
+[1] Gilles Klopman, Shaomeng Wang, Donald M. Balthasar, Journal of chemical 
+ information and computer sciences 32(5) (1992) 474-482.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

@@ -1,0 +1,75 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure CLIFFORD I * ============================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+Write the input including the ion types and their counts in the overall formula
+of the considered solid entity in the format
+
+Cation,Number of cations,Anion,Number of anions
+
+(i.e. delimiter is comma, no spaces around commas)
+
+as in examples of type:
+
+Ni+2,1,S2-2,1
+Pb+2,1,N3-,2
+Na+,2,SO3-2,1
+Cu+2,1,OH-,2
+La+3,1,C6H5CO2-,3
+
+Save then the input as JH-Clifford1.inp to the same folder where 
+JH-Clifford1.b, JH-Clifford1.dat and JH-Clifford1.par are placed, i.e.
+/mnt/sdcard/JH/Program/Clifford1/. 
+
+After execution, a new file JH-Clifford1.out is created in the same location. 
+If there is any file of this name already present, it will be overwritten. The 
+calculation results are inside this file.
+
+The distribution contains one test input and one test output file.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+If there is no file named JH-Clifford1.inp present in the folder with 
+JH-Clifford1.b, the interactive mode of the program is called and the user 
+is prompted to input the data via keyboard. Finally, the results will be 
+punched again to file JH-Clifford1.out to the same folder.
+================================================================================
+C. PHREEQC INPUT GENERATOR
+================================================================================
+The standard output generates input lines for PHREEQC databases in the style
+compatible with the version 3. 
+================================================================================
+D. TROUBLESHOOTING, FEEDBACK
+================================================================================
+The distributed parameter file JH-Cliford1.par contains following information:
+b(Compound AaBb);Coeff1;Coeff2 for use in the equations
+
+pKs = (1+b)*14.8-8.5*DeltaX (valid for compound type ABb) and
+
+pKs = (2+b)*48.7-37.5*DeltaX (valid for compound type A2Bb).
+
+Other stoichiometry types can be added manually but the calculation may
+become unreliable.
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+E. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+F. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] A. F. Clifford, J. Phys. Chem. 63(8) (1959) 1227-1231.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

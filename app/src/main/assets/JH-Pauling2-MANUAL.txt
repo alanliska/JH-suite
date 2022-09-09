@@ -1,0 +1,65 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure PAULING II * ============================
+Version 1.00 for Android
+Compiled 2018-03-27 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+A typical input contains the first line in the style of
+
+Number of nitrogen atoms;Number of oxygen atoms
+
+and next lines as
+
+Atom1;Atom2
+
+for each individual bond between Atom1 and Atom2. 
+
+For example
+
+0;0
+Na;Cl
+
+or 
+
+1;0
+N;H
+N;H
+N;Cl
+
+
+Together with JH-Pauling2.b and JH-Pauling2.par (contains the equation
+constants) also JH-Pauling2.inp and JH-Pauling2.dat must be present in the
+same location folder, i.e. /mnt/sdcard/JH/Program/Pauling2.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Pauling2.b
+does not support interactive mode as well. It is necessary to input data through
+the file named JH-Pauling2.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] Linus Pauling: The Nature of The Chemical Bond, 3rd Edition. Cornell
+    University Press, London 1960.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

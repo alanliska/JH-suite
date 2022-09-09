@@ -1,0 +1,76 @@
+============================ * JH PROGRAM SUITE * ==============================
+======================== * Procedure EIGEN-FUOSS II * ==========================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+Write the input including the ion types entering in the equilibrium as well as
+the exchange products and the desired kinetics block title in the format
+
+Na+,Cl-,0,NaCl,H2O,Title
+Pt(CN)4-2,Cl-,250,Pt(CN)3Cl-2,CN-,Title
+
+Metal center,Nucleophile (entering ligand),Distance(pm),Exchanged complex,
+Leaving ligand,Kinetic block title
+
+(i.e. delimiter is comma, no spaces around commas)
+
+If the distance is input as 0 pm, then charge approximated model is invoked. 
+
+Save then the input as JH-Eigen-Fuoss2.inp to the same folder where 
+JH-Eigen-Fuoss2.b, JH-Eigen-Fuoss2.dat and JH-Eigen-Fuoss2.par are placed, i.e.
+/mnt/sdcard/JH/Program/Eigen-Fuoss2/. 
+
+After execution, a new file JH-Eigen-Fuoss2.out is created in the same location.
+If there is any file of this name already present, it will be overwritten. The 
+calculation results are inside this file.
+
+The distribution contains one test input and one test output file.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+The program JH-Eigen-Fuoss2.b does not offer interactive mode.
+================================================================================
+C. PHREEQC INPUT GENERATOR
+================================================================================
+The standard output generates input lines for PHREEQC databases in the style
+compatible with the version 3. 
+================================================================================
+D. TROUBLESHOOTING, FEEDBACK
+================================================================================
+The distributed parameter file JH-Eigen-Fuoss2.par contains information in 
+folowing order: Eigen-Fuoss equation coefficient, ionic strength (mol/l), 
+relative permittivity of the solvent, temperature (in K) and another equation 
+parameter.
+
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+E. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+F. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] Manfred Eigen, Z. Phys. Chem. 1 (1954) 176-200.
+[2] Manfred Eigen, Z. Electrochem. 64 (1960) 115-130.
+[3] Raymond M. Fuoss, J. Am. Chem. Soc. 80(19) (1958) 5059-5061.
+[4] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+[5] Ralph G. Wilkins: Kinetics and Mechanism of Reactions of Transition Metal
+ Complexes, 2nd Edition. Wiley-VCH, Weinheim 2002.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

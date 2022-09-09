@@ -1,0 +1,74 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================= * Procedure CLIFFORD II * ============================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+Write the input including the ion types and their counts in the overall formula
+of the considered solid entity in the format
+
+Cation,Number of cations,Anion,Number of anions
+
+(i.e. delimiter is comma, no spaces around commas)
+
+as in examples of type:
+
+Fe+3,1,OH-,3
+Ca+2,1,Te-2,1
+Sb+3,2,S-2,3
+Cu+2,1,Cl-,2
+
+Save then the input as JH-Clifford2.inp to the same folder where 
+JH-Clifford2.b, JH-Clifford2.dat and JH-Clifford2.par are placed, i.e.
+/mnt/sdcard/JH/Program/Clifford2/.
+
+After execution, a new file JH-Clifford2.out is created in the same location. 
+If there is any file of this name already present, it will be overwritten. The 
+calculation results are inside this file.
+
+The distribution contains one test input and one test output file.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+If there is no file named JH-Clifford2.inp present in the folder with 
+JH-Clifford2.b, the interactive mode of the program is called and the user 
+is prompted to input the data via keyboard. Finally, the results will be 
+punched again to file JH-Clifford2.out to the same folder.
+================================================================================
+C. PHREEQC INPUT GENERATOR
+================================================================================
+The standard output generates input lines for PHREEQC databases in the style
+compatible with the version 3. 
+================================================================================
+D. TROUBLESHOOTING, FEEDBACK
+================================================================================
+The distributed parameter file JH-Cliford2.par contains following information:
+a;b(Compound AaBb);Coeff1;Coeff2;B(Compound AaBb);Clifford´s or Gordy´s
+electronegativity of the anionic part for use in the equations
+
+pKs = Coeff1+Coeff2*DeltaX
+
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+E. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+F. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] A. F. Clifford, J. Phys. Chem. 63(8) (1959) 1227-1231.
+[2] Bacanov, S.S.: Elektronegativita prvkù a chemická vazba. SNTL, Praha 1965.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

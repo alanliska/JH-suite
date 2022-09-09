@@ -1,0 +1,75 @@
+============================ * JH PROGRAM SUITE * ==============================
+================== * Procedure PCM (PARTIAL CHARGE MODEL) * ====================
+Version 1.01 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+Write the input in the following style
+(after "!" only remarks that must not be in the real input are written)
+
+-1;0	! first number: overall charge, second number not important (by conv.)
+Li;1	! Element symbol, its number in the considered species
+H;1	! etc...
+S;1
+O;4
+
+(for LiHSO4-)
+
+0;0
+Na;1
+S;1
+C;1
+N;1
+
+(for NaSCN)
+
+and save as JH-PCM.inp. Execution of the program occurs upon the double click 
+(or any kind of start) on JH-PCM.b. Notice that together with JH-PCM.b 
+also JH-PCM.inp and JH-PCM.dat must be present in the same location, i.e. 
+/mnt/sdcard/JH/Program/PCM/. After execution, a new file JH-PCM.out is created 
+in the same folder. If there is any file of this name already present, it will 
+be overwritten. The calculation results are inside this file.
+
+The distribution contains one test input and one test output file.
+
+If the requested element is not present in the database file JH-PCM.dat, it is 
+possible to add manually the corresponding data to JH-PCM.dat. The only 
+limitation is that the number of elements must not exceed 200 and number of 
+atom types in the calculated species must be maximum 100.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-PCM.b does not
+support interactive mode as well. It is necessary to input data through the
+file named JH-PCM.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+Once you input element that is/are not present in the datasheets, the error 
+message is generated and the program terminated. It´s necessary to repeat the 
+input procedure with correct data again. 
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+1.01 Program was renamed and headings were added to the database file. 
+================================================================================
+REFERENCES:
+[1] Marc Henry, Jean Pierre Jolivet, Jacques Livage, in Chemistry, Spectroscopy
+ and Applications of Sol-Gel Glasses, Springer, Berlin Heidelberg 1992, 153-206.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelAB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nAcid-Base:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Bayless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAYLESS" />
+        <Button
+            android:id="@+id/start_BaylessRicci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAYLESS-RICCI" />
+        <Button
+            android:id="@+id/start_Bell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BELL" />
+        <Button
+            android:id="@+id/start_Pauling1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAULING I" />
+        <Button
+            android:id="@+id/start_Ricci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RICCI" />
+
+        <TextView
+            android:id="@+id/labelC"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nComplex formation:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Brown1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN I" />
+        <Button
+            android:id="@+id/start_Brown2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN II" />
+        <Button
+            android:id="@+id/start_Edwards1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDWARDS I" />
+        <Button
+            android:id="@+id/start_EigenFuoss1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EIGEN-FUOSS I" />
+        <Button
+            android:id="@+id/start_Fuoss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FUOSS" />
+        <Button
+            android:id="@+id/start_Hancock1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HANCOCK I" />
+        <Button
+            android:id="@+id/start_Hancock2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HANCOCK II" />
+        <Button
+            android:id="@+id/start_Misono1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MISONO I" />
+        <Button
+            android:id="@+id/start_Misono2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MISONO II" />
+        <Button
+            android:id="@+id/start_Yamada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YAMADA" />
+        <Button
+            android:id="@+id/start_Yingst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YINGST" />
+
+
+        <TextView
+            android:id="@+id/labelP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPrecipitation:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Brown3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN III" />
+        <Button
+            android:id="@+id/start_Clifford1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIFFORD I" />
+        <Button
+            android:id="@+id/start_Clifford2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIFFORD II" />
+
+        <TextView
+            android:id="@+id/labelR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nRedox:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Brown4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN IV" />
+
+        <TextView
+            android:id="@+id/labelK"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nKinetics:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Edwards2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDWARDS II" />
+        <Button
+            android:id="@+id/start_EigenFuoss2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EIGEN-FUOSS II" />
+        <Button
+            android:id="@+id/start_Marcus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MARCUS" />
+        <Button
+            android:id="@+id/start_Zhou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZHOU" />
+
+        <TextView
+            android:id="@+id/labelCh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nCharges:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_Pauling2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAULING II" />
+        <Button
+            android:id="@+id/start_PCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PCM" />
+        <Button
+            android:id="@+id/start_Sanderson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SANDERSON" />
+
+        <TextView
+            android:id="@+id/labelO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nOrganic:"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+        <Button
+            android:id="@+id/start_BanksBurnop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BANKS-BURNOP" />
+        <Button
+            android:id="@+id/start_BrownStein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN-STEIN" />
+        <Button
+            android:id="@+id/start_Cabani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CABANI" />
+        <Button
+            android:id="@+id/start_Dick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DICK" />
+        <Button
+            android:id="@+id/start_Hammett1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAMMETT I" />
+        <Button
+            android:id="@+id/start_Hammett2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAMMETT II" />
+        <Button
+            android:id="@+id/start_Jankowski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JANKOWSKI" />
+        <Button
+            android:id="@+id/start_Joback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOBACK" />
+        <Button
+            android:id="@+id/start_Klopman1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KLOPMAN I" />
+        <Button
+            android:id="@+id/start_Klopman2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KLOPMAN II" />
+        <Button
+            android:id="@+id/start_Mavrovouniotis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAVROVOUNIOTIS" />
+        <Button
+            android:id="@+id/start_Pedley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEDLEY" />
+        <Button
+            android:id="@+id/start_Polymer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POLYMER" />
+        <Button
+            android:id="@+id/start_Simamora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMAMORA" />
+        <Button
+            android:id="@+id/start_Zuman1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN I" />
+        <Button
+            android:id="@+id/start_Zuman2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN II" />
+        <Button
+            android:id="@+id/start_Zuman3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN III" />
+        <Button
+            android:id="@+id/start_Zuman4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN IV" />
+        <Button
+            android:id="@+id/start_Zuman5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN V" />
+        <Button
+            android:id="@+id/start_Zuman6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN VI" />
+        <Button
+            android:id="@+id/start_Zuman7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZUMAN VII" />
+
+
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE APP" />
+
+    </LinearLayout>
+</ScrollView>

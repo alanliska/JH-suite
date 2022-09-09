@@ -1,0 +1,101 @@
+============================ * JH PROGRAM SUITE * ==============================
+============================= * PROCEDURE DICK * ===============================
+Version 1.00 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains individual lines describing the type and number
+of amino acid fragments included in the calculated molecule as in the example of
+polypeptide (saved as JH-Dick.inp to /mnt/sdcard/JH/Program/Dick/):
+
+Ala;2
+Asp;2
+Ser;1
+Gly;5
+Glu;2
+Phe;1
+Leu;1
+Val;1
+Arg;1
+
+(please note that the fragment definition is the same as in the database file
+JH-Dick.dat).
+
+II. Parameter file
+
+General layout of the parameter file JH-Dick.par is as follows:
+
+Amino acid fragment (0/+/-);Gibbs energy contribution;Enthalpy contribution;
+Entropy contribution
+
+(all refer to formation process from the elements in their standard states,
+polypeptide is in the standard state of aqueous solution)
+Units: kcal.mol-1 (G and H), cal.K-1.mol-1 (S)
+
+III. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Dick.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Dick.b (the standalone program)
+
+JH-Dick.dat
+
+fragment;G;H;S
+
+JH-Dick.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Dick.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+If the requested fragment is not present in the database file 
+JH-Dick.dat, it is possible to add manually the missing data. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Dick.b does
+not support interactive mode as well. It is necessary to input data through the
+file named JH-Dick.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+Once you input element that is/are not present in the datasheets, the error 
+message is generated and the program terminated. It´s necessary to repeat the 
+input procedure with correct data again. 
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] J. M. Dick, D. E. LaRowe, H.C. Helgeson, Biogeosciences 3 (2006) 311-336.
+[2] J. M. Dick, D. E. LaRowe, H. C. Helgeson, Biogeosciences Discussions 2
+ (2005) 1515-1615.
+[3] Jan P. Amend, Harold C. Helgeson, Biophysical Chemistry 84 (2000) 105-136.
+[4] Allen J. Bard, Roger Parsons, Joseph Jordan: Standard Potentials in Aqueous
+ Solution. Marcel Dekker, New York and Basel 1985.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

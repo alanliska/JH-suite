@@ -1,0 +1,118 @@
+============================ * JH PROGRAM SUITE * ==============================
+================ * Procedure Joback-Reid (organic compounds) * =================
+Version 1.01 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Input file
+
+The standard input contains individual lines describing the type and number
+of fragments included in the calculated molecule as in the example of
+colamine (saved as JH-Joback.inp to /mnt/sdcard/JH/Program/Joback/):
+
+-CH2-;2
+-OH alc.;1
+-NH2;1
+
+(please note that the fragment definition is the same as in the database file
+JH-Joback.dat).
+
+II. Parameter file
+
+General layout of the parameter file JH-Joback.par is as follows:
+
+constant for normal boiling point estimation / K;
+constant for normal freezing point estimation / K;
+first constant for critical temperature estimation / K2;
+second constant for critical temperature estimation / K;
+first constant for critical pressure estimation / bar3;
+second constant for critical pressure estimation / bar3;
+constant for critical molar volume estimation / cm3.mol-1;
+constant for standard fusion enthalpy estimation / kJ.mol-1;
+constant for standard fusion free energy estimation / kJ.mol-1;
+first constant for heat capacity estimation / J.K-1.mol-1;
+second constant for heat capacity estimation / J.K-2.mol-1;
+third constant for heat capacity estimation / J.K-3.mol-1;
+fourth constant for heat capacity estimation / J.K-4.mol-1;
+constant for standard vaporization enthalpy estimation / kJ.mol-1;
+constant for standard freezing enthalpy estimation / kJ.mol-1;
+first constant for viscosity estimation;
+second constant for viscosity estimation;
+custom temperature
+
+III. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Joback.b when performing calculations. 
+These are (including their structure):
+
+essential:
+
+JH-Joback.b (the standalone program)
+
+JH-Joback.dat
+
+fragment;Tc;Pc;Vc;Tb;Tf;DHf;DGf;a;b;c;d;Hvb;Hf;EtaA;EtaB;NA;M
+
+(for units, please check ref. [1])
+
+JH-Joback.par
+described above
+
+JH-Joback.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Joback.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+If the requested fragment is not present in the database file 
+JH-Joback.dat, it is possible to add manually the missing
+data. It is also possible to change the parameters used in the calculations
+stored in the file JH-Joback.par. The only limitation is that the number of 
+fragments must not exceed 100. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Joback.b does
+not support interactive mode as well. It is necessary to input data through the
+file named JH-Joback.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+Once you input element that is/are not present in the datasheets, the error 
+message is generated and the program terminated. It´s necessary to repeat the 
+input procedure with correct data again. 
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+1.01 Program renamed, headings were added to the database and parameter files.
+================================================================================
+WARNING
+================================================================================
+Please note that not every molecule property is parametrized within requested
+set of group contributions. Therefore, some predicted values can be mislead.
+Before further use, please check the file JH-Joback.dat for presence of needed
+data.
+================================================================================
+REFERENCES:
+[1] K.G. Joback, R.C. Reid, Chem.Eng. Comm. 57 (1987) 233-243.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

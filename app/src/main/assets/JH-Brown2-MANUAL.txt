@@ -1,0 +1,157 @@
+=========================== * JH PROGRAM SUITE * ===============================
+========================= * Procedure BROWN-SYLVA * ============================
+Version 1.01 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+The program JH-Brown2 serves to advanced qualified metal-ion stability constants
+with organic ligands, namely carboxylic acids, amines and amino acids. The
+predictions are based on the Brown-Sylva scheme. Because there is more degrees
+of freedom (in sense of the input options) in the theory, the program allowes 
+to vary input options for electronicity as well as for individual constituents
+(i.e. metal ion) radii. A typical content of input file JH-Brown2.inp
+contents the syntax style
+
+Metal ion,CoordNum of Metal;Metal radius;Ligand;Number of ligands;Metal 
+electronicity calculation scheme;Number of metal ions bonded to each ligand
+
+as in the example of type
+
+In+3,6,Stockar,Edta-4,1,Brown,1
+
+i.e. the delimiter is comma (,).
+
+Possible options for metal ion radius item are "Stockar", "Shannon-CR"
+and "Shannon-IR". The electronicity can be either taken from the original work
+("Brown") or calculated by method of Parr or Klopman what is invoked by 
+the appropriate keywords "Parr" or "Klopman". 
+
+JH-Brown2.par
+=============
+This file contains the constants listed in the Brown-Sylva equations
+(they are written below). 
+
+JH-Acids_Brown2.dat
+===================
+The file contains data concerning lewis acids, the sequence
+
+Lewis acid;Electronicity;D;S;n;g_n;d
+
+is followed.
+
+JH-Bases_Brown2.dat
+===================
+The file contains data concerning lewis bases, the sequence
+
+Base;NumberCOO;pKaCOO;NumberNH;pKaNH;Gamma
+
+is followed.
+
+JH-Parr.par
+===========
+The calculation scheme involves ionization potential I, electron 
+affinity A and hardness n:
+
+nB = 0.5 * (1*I - 1*A)
+Electronicity(L) = 7.0 - nB
+
+the used constants are listed in the file.
+
+JH-Acids_Parr.dat
+=================
+A table of columns Acid;I1;A is included.
+
+JH-Klopman.par
+==============
+This file contains cocstants employing in the electronicity calculation 
+scheme. The order is as folows:
+
+a2;b2;csm2;csn2;kappa;Cat;Ani;eps;ElCoeff1;ElCoeff2
+
+JH-AtomData_Brown1.dat
+======================
+The ionization potentials and first electron affinity in the order
+
+Element;A;I1;I2;I3;I4;I5;I6;I7;I8
+
+are given.
+
+JH-Radii_Stockar.dat
+====================
+The radii values (in Angstroms) are given in the order
+Element;r+1;r+2;r+3;r+4;r+5;r+6;r+7;r+8.
+
+JH-Radii_Shannon.dat
+====================
+The radii values (in Angstroms) are given in the order
+Ion;Coordination number;Crystal radius;Effective ionic radius. 
+
+Please note that all these files must be present in one folder together with 
+the input file JH-Brown2.inp and standalone executable JH-Brown2.b, i.e.
+/mnt/sdcard/JH/Program/Brown2/. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Brown2.b does
+not support interactive mode. It is necessary to input data through the
+file named JH-Brown2.inp present in the same folder as other files. 
+================================================================================
+C. PHREEQC INPUT GENERATOR
+================================================================================
+The standard output generates input lines for PHREEQC databases in the style
+compatible with the version 3. 
+================================================================================
+D. TROUBLESHOOTING, FEEDBACK
+================================================================================
+Once you input element that is/are not present in the datasheets, the error 
+message is generated and the program terminated. It´s necessary to repeat the 
+input procedure with correct data again. 
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+E. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+F. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+1.01 Relative permittivity of water corrected. 
+================================================================================
+REFERENCES:
+[1] Paul Leslie Brown, Ronald N. Sylva, AAEC/E656 1987 (patent).
+[2] Paul Leslie Brown, Ronald N. Sylva, J. Chem. Soc., Dalton Trans. 4 (1985)
+ 723-730.
+[3] Paul Leslie Brown, Heinz Wanner: Predicted formation constants using the
+ unified theory of metal ion complexation. Organisation for Economic Co-
+ operation and Development, Nuclear Energy Agency, Paris 1987.
+[4] Paul Leslie Brown, Christian Ekberg: Hydrolysis of Metal Ions, Volume 1-2.
+ Wiley-VCH, Weinheim 2016.
+[5] R. D. Shannon, Acta Cryst. A32 (1976) 751-767.
+[6] Nils Wiberg: Lehrbuch der Anorganischen Chemie, 102. Auflage. Walter de
+ Gruyter, Berlin 2007.
+[7] Klaus Stockar, Helvetica Chimica Acta 33(6) (1950) 1409-1420.
+[8] Robert G. Parr, Ralph G. Pearson, J. Am. Chem. Soc. 105 (1983) 7512-7516.
+[9] G. Klopman, J. Am. Chem. Soc. 90(2) (1968) 223-234.
+[10] Stepan S. Batsanov, Andrei S. Batsanov: Introduction to Structural
+ Chemistry. Springer, Dordrecht 2012.
+[11] V. A. Rabinovic, Z. Ja. Chavin: Strucna chemicka prirucka. SNTL,
+ Praha 1985.
+[12] Jiri Vohlidal, Alois Julak, Karel Stulik: Chemicke a analyticke tabulky.
+ GRADA Publishing, Praha 1999.
+[13] B. P. Nikolski: Handbuch des Chemikers, Band I. VEB Verlag Technik,
+ Berlin 1956.
+[14] M. J. Sienko, R. A. Plane: Physical Inorganic Chemistry. W. A. Benjamin,
+ New York 1963.
+[15] Arthur E. Martell, Robert M. Smith: NIST Standard Reference Database 46
+ Version 8.0, NIST, Gaithersburg 2004.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

@@ -1,0 +1,59 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure BROWN-STEIN * ===========================
+Version 1.00 for Android
+Compiled 2018-03-27 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+A typical content of input file JH-Brown-Stein.inp contents the syntax style
+
+building block;number of occurences
+...
+
+as in the example of ethanol
+
+-CH3;1
+-CH2-;1
+-OH prim.;1
+
+Please find the corresponding fragments in the database file JH-Brown-Stein.dat.
+The parameter file JH-Brown-Stein.par contains numerical constants from the 
+equations defined in the literature. Together with these files, 
+JH-Brown-Stein.b must be present in the same folder. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Brown-Stein.b 
+does not support interactive mode. It is necessary to input data through the
+file named JH-Brown-Stein.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+================================================================================
+REFERENCES:
+[1] S. E. Stein, R. L. Brown: Estimation of Normal Boiling Points from Group
+    Contributions. J. Chem. Inf. Comput. Sci. 34 (1994) 581-587.
+[2] John C. Dearden, Environmental Toxicology and Chemistry 22(8) (2003)
+    1696-1709.
+[3] Robert S. Boethling (Ed.) et al: Handbook of Property Estimation Methods
+    for Chemicals: Environmental and Health Sciences. CRC Press LLC,
+    Boca Raton 2000.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

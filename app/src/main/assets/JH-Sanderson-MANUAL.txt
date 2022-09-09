@@ -1,0 +1,217 @@
+============================ * JH PROGRAM SUITE * ==============================
+========================== * Procedure SANDERSON * =============================
+Version 1.03 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+I. Gaseous state
+
+The first line in the file JH-Sanderson.inp must be written in the format
+
+0;G;0;0;0;0
+or
+2;G;0;0;0;0
+or
+-3;G;0;0;0;0
+etc., 
+where the first number denotes overall charge of the species.
+
+The second and next lines have the format
+
+C;1;1;H;1;1.07
+C;0;1;H;1;1.07
+...,
+i.e. first field reffers to the atomic symbol of the first atom in the
+considered bond, second field can be either 1 (if the particular atom 
+is introduced for the first time) or 0 (next time - to avoid multiple
+counting of the identical atom). No other symbol is supported.
+The third field denotes the bond order between both atoms defined in one 
+line. It can achieve values 1, 2 or 3. Fourth field is second atom symbol,
+fifth number has the same meaning as the second one but now it reffers
+to the second atom. The fifth field can be either a number (which has 
+the meaning of bond length in Angstroms) or "R" (the bond length is then
+calculated as sum of the single bond atomic radii). 
+Note that there must be at least two elements be present in the species.
+Therefore, input like
+0;G;0;0;0;0
+C;1;1;H;0;1.07
+will bring about error termination of the program.
+
+If the considered species has the nature of an ion, an auxuliary
+univalent counterion is to be used during the electronegativity calculation.
+For cations, usually Cl- is used, and for anions, usually Ag+ is used
+(see JH-Sanderson.par). These ions can be optionally changed but they must
+be defined in the database file JH-Sanderson.dat as well as they must be
+treated with respect that the calculation evaluates them with the unity 
+charge. For this reason, use of e.g. Ca+2, Al+3, S-2 etc. will cause
+erroneous results. 
+
+Some representative examples:
+
+1.) gaseous methane, CH4
+
+0;G;0;0;0;0
+C;1;1;H;1;1.07
+C;0;1;H;1;1.07
+C;0;1;H;1;1.07
+C;0;1;H;1;1.07
+
+2.) gaseous ammonium ion, NH4+
+
+1;G;0;0;0;0
+N(1);1;1;H;1;1.24
+N(1);0;1;H;1;1.24
+N(1);0;1;H;1;1.24
+N(1);0;1;H;1;1.24
+
+3.) gaseous hexafluorosilicate ion, SiF6-2
+
+-2;G;0;0;0;0
+Si(IV);1;1;F(1);1;1.5
+Si(IV);0;1;F(1);1;1.5
+Si(IV);0;1;F(1);1;1.5
+Si(IV);0;1;F(1);1;1.5
+Si(IV);0;1;F(1);1;1.5
+Si(IV);0;1;F(1);1;1.5
+
+4.) gaseous dichromate ion, Cr2O7-2
+
+-2;G;0;0;0;0
+Cr(VI);1;1;O(1);1;R
+Cr(VI);0;1;O(1);1;R
+Cr(VI);0;1;O(1);1;R
+Cr(VI);0;1;O(1);1;R
+O(1);0;1;Cr(VI);1;R
+Cr(VI);0;1;O(1);1;R
+Cr(VI);0;1;O(1);1;R
+Cr(VI);0;1;O(1);1;R
+
+II. State of crystalline solid
+
+The standard input is similar to the first case but "S" replaces 
+"G" in the first line and the charge must be 0 everytime. 
+To the first line, another two parameters are added (lattice type
+defined in JH-Sanderson.mad) and number of shared electron pairs in the 
+bond surrounding. 
+Since these two parameters have no analogy in the next lines defining
+the structure, the symbol ";" must be present at the end of each next
+line to avoid crash or errors in the results.
+ 
+Some typical examples of input are:
+
+1.) solid potassium chloride, KCl
+
+0;S;0;0;0;0;NaCl;3
+K;1;1;Cl(1);1;2.05;
+
+2.) solid perovskite, CaTiO3
+
+0;S;0;0;0;0;Cu2O;4
+Ca;1;1;O(1);1;R;
+O(1);0;1;Ti(IV);1;R;
+Ti(IV);0;1;O(1);1;R;
+Ti(IV);0;1;O(1);1;R;
+O(1);1;1;Ti(IV);0;R;
+
+III. Database and other files
+
+The program comes along with some additional files which must be present
+in the same folder as JH-Sanderson.b when performing calculations, i.e.
+/mnt/sdcard/JH/Program/Sanderson/. 
+These are (including their structure):
+
+essential:
+
+JH-Sanderson.b (the standalone program)
+
+JH-Sanderson.dat
+Element;Atomic radius (pm);Electronegativity;Atomization 
+enthalpy;Bond dissociation energy;Born exponent
+
+JH-Sanderson.par
+Coefficient;Salt cation;Salt anion;f(single);f(double);f(triple)
+
+JH-Sanderson.mad
+Structural type;Madelung constant
+
+JH-Sanderson.inp
+(this file is modified to obtain the desired results)
+
+and as an example
+
+JH-Sanderson.out
+(not necessary to be present, it is generated as a result of the
+calculation). 
+
+During the calculation, a temporary file SandersonTemp is created and deleted.
+In order not to corrupt the running calculation, please do not delete or edit 
+this file manually. 
+
+If the requested element or lattice type is not present in the database files 
+JH-Sanderson.dat and JH-Sanderson.mad, it is possible to add manually the 
+missing data. It is also possible to change the constants used in the 
+calculations stored in the file Sanderson.par. The only limitation is that 
+the number of elements, lattice types, input lines must not exceed 200, 100 
+and 100, respectively. 
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+As most of programs which deal with structural input data, JH-Sanderson.b does
+not support interactive mode as well. It is necessary to input data through the
+file named Sanderson.inp present in the same folder as other files. 
+================================================================================
+C. TROUBLESHOOTING, FEEDBACK
+================================================================================
+Once you input element that is/are not present in the datasheets, the error 
+message is generated and the program terminated. It´s necessary to repeat the 
+input procedure with correct data again. 
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+D. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGED to provide any 
+kind of support. 
+================================================================================
+E. REVISION HISTORY
+================================================================================
+1.00	In Android devices a bug occured, when opening the non-existent file #6 
+	was called. Self closing of command line window after successful comple-
+	tion of the calculation was added. 
+1.01	Minor bugs fixed.
+1.02	Program was renamed. Headings were added to database and parameter 
+	files.
+1.03	Bug in block nomenclature inside the source code was fixed.
+================================================================================
+REFERENCES:
+[1] Robert Thomas Sanderson: Chemical Bonds and Bond Energy. Academic Press,
+ Inc., New York 1971.
+[2] Robert Thomas Sanderson: Chemical Bonds and Bond Energy, Second Edition.
+ Academic Press, Inc., New York 1976.
+[3] Robert Thomas Sanderson: Polar Covalence. Academic Press, Inc., New York
+ 1983.
+[4] Robert Thomas Sanderson, J. Chem. Educ. 29(11) (1952) 539-544.
+[5] Robert Thomas Sanderson, J. Chem. Educ. 31(1) (1954) 2-7.
+[6] Robert Thomas Sanderson, J. Chem. Educ. 31(5) (1954) 238-245.
+[7] Robert Thomas Sanderson, J. Chem. Educ. 32(3) (1955) 140-141.
+[8] Robert Thomas Sanderson, J. Chem. Educ. 41(6) (1964) 331-333.
+[9] Robert Thomas Sanderson, J. Chem. Educ. 41(7) (1964) 361-366.
+[10] Robert Thomas Sanderson, J. Inorg. Nucl. Chem. 27 (1965) 989-992.
+[11] Robert Thomas Sanderson, J. Am. Chem. Soc. 79(6) (1975) 1367-1372.
+[12] Robert Thomas Sanderson, J. Org. Chem. 47 (1982) 3835-3839.
+[13] Robert Thomas Sanderson, J. Am. Chem. Soc. 105 (1983) 2259-2261.
+[14] Robert Thomas Sanderson, Inorg. Chem. 25 (1986) 1856-1858.
+[15] Robert Thomas Sanderson, Inorg. Chem. 25 (1986) 3518-3522.
+[16] Robert Thomas Sanderson, J. Chem. Educ. 65(2) (1988) 112-118.
+[17] Robert Thomas Sanderson, J. Chem. Educ. 65(3) (1988) 227-231.
+[18] Stepan S. Batsanov, Andrei S. Batsanov: Introduction to Structural
+ Chemistry. Springer Science+Business Media, Dordrecht 2012.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

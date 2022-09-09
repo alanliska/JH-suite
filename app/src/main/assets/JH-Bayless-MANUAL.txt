@@ -1,0 +1,76 @@
+============================ * JH PROGRAM SUITE * ==============================
+=========================== * Procedure BAYLESS * ==============================
+Version 1.01 for Android
+Compiled 2018-02-17 using X11-BASIC
+(C) Alan Liska & Veronika Ruzickova, 2018
+================================================================================
+A. BATCH USE
+================================================================================
+Write the neutral acid molecule formula in the format XHn(+/-q), where n denotes
+the number of terminal hydrogen atoms bonded to atom X, q is charge of the
+species. 
+
+Examples:
+FH
+SeH-
+NH2-
+NH-2
+NH4+
+CH4
+
+Please note that the central atom must be written first for convenience,
+despite the nomenclature rule concerning the element symbol range in binary
+hydrides is violated for 16th-18th group. 
+
+The input file must be saved as JH-Bayless.inp to the same folder where 
+JH-Bayless.b, JH-Bayless.dat and JH-Bayless.par are placed, i.e.
+/mnt/sdcard/JH/Program/Bayless/.   
+
+After execution, a new file JH-Bayless.out is created in the same location.
+If there is any file of this name already present, it will be overwritten.
+The calculation results are inside this file.
+
+The distribution contains one test input and one test output file.
+================================================================================
+B. INTERACTIVE MODE
+================================================================================
+If there is no file named JH-Bayless.inp present in the folder with 
+JH-Bayless.b, the interactive mode of the program is called and the user is
+prompted to input the data via keyboard. Finally, the results will be punched
+again to file JH-Bayless.out to the same folder.
+================================================================================
+C. PHREEQC INPUT GENERATOR
+================================================================================
+The standard output generates input lines for PHREEQC databases in the style
+compatible with the version 3. 
+================================================================================
+D. TROUBLESHOOTING, FEEDBACK
+================================================================================
+The distributed database file JH-Bayless.dat is editable as well as the Bayless
+equation parameter file JH-Bayless.par.
+In case of bugs, any report sent to the authors (alan.liska@jh-inst.cas.cz)
+is welcomed. 
+================================================================================
+E. DISCLAIMER, LICENSE
+================================================================================
+This program is being developed as a freeware with ABSOLUTELY NO WARRANTY
+concerning the correct functionality of the software and the reliability of the
+predicted data. The authors CARRY NO RESPONSIBILITY for any kind of situation
+connected to use of this software as well as ARE NOT OBLIGATED to provide any 
+kind of support. 
+================================================================================
+F. REVISION HISTORY
+================================================================================
+1.00 Primary version.
+1.01 A minor error alert bug fixed.
+================================================================================
+REFERENCES:
+[1] Philip L. Bayless, J. Chem. Ed. 60 (1983) 546-547.
+[2] Itamar Bodek, Warren J. Lyman, William F. Reehl, David H. Rosenblatt (Eds.):
+ Environmental Inorganic Chemistry. Properties, Processes, and Estimation
+ Methods. Pergamon Press, New York, Oxford, Beijing, Frankfurt, Sao Paulo,
+ Sydney, Tokyo, Toronto 1988.
+ACKNOWLEDGEMENTS
+Markus Hoffmann: X11-BASIC, Version 1.28, 1997-2022, x11-basic.sourceforge.net
+(Interpreter & Compiler)
+================================================================================

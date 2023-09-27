@@ -1,4 +1,4 @@
-© Alan Liška, Veronika Rùžièková, Jiøí Ludvík, 2017-2019
+© Alan Liska, Veronika Ruzickova, Jiri Ludvik, 2017-2023
 
 JH-suite (named according to Jaroslav Heyrovský) is a set of small codes  enabling fast empirical estimations. Each individual program is written in X11-BASIC by Markus Hoffmann (https://github.com/kollokollo/X11Basic) and can be edited by users according to their needs. 
 

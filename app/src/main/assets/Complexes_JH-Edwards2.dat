@@ -1,9 +1,0 @@
-Pt_complex;s;log_ks;Solvent
-PtCl2(PEt3)2;1.43;-8.82;MeOH
-PtCl2(AsEt3)2;1.25;-7.49;MeOH
-PtCl2(SeEt2)2;1.05;-6.13;MeOH
-PtCl2(pip)2;0.91;-5.82;MeOH
-PtCl2(en);0.64;-5.26;H2O
-PtBr(dien);0.75;-5.16;H2O
-PtCl(dien);0.65;-4.56;H2O
-Pt(H2O)dien;0.44;-1.08;H2O

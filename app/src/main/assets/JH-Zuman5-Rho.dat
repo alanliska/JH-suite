@@ -1,8 +1,0 @@
-Series;Solvent;pH;Mechanism;Ox-Red;Equation;Delta(pi)R;Rho(pi)R;EH(SCE);Remark
-Naphthalene-1-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.054;-2.44;
-Naphthalene-2-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.062;-2.44;
-Anthracene-1-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.035;-1.924;
-Anthracene-2-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.066;-1.924;
-Azulene-1-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.17;-1.633;
-Azulene-5-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.036;-1.633;
-Azulene-6-X;75% dioxane+0.1M Bu4NI;X; ;R;29p;X;0.13;-1.633;

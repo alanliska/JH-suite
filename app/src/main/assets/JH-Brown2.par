@@ -1,7 +1,0 @@
-0.031;0.0078;0.11;-4.10;-0.05;0.74;1.41
-
-Slope1 = 0.031 + 0.0078 * pKa
-Intercept1 = 0.11 - 4.10 * (1 + (3 - zL) * (zL + 1)) * Slope1
-g1 = (1 + Del + BEl^2 * S) * (zM + 2)
-g2 = g_n * (zM - 1) - 0.05 * d * ((Gamma - 1) * (BEl^4 - 3) - 1) * (n - (3 + 2 * Gamma))^2 * (1 - Gamma * zM) * (1 - S)
-Electronicity(COO-);Electronicity(NH2)

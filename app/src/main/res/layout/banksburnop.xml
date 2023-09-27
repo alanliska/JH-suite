@@ -52,6 +52,7 @@
             android:id="@+id/Run"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
             android:text="RUN CALCULATION" />
 
         <Button
@@ -64,6 +65,7 @@
             android:id="@+id/Highlight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FFEB3B"
             android:text="Highlight the output" />
 
         <Button

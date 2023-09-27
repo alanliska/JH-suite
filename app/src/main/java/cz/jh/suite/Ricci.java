@@ -51,7 +51,11 @@ public class Ricci extends MainActivity {
     private TextView OutputLabel;
     private EditText Output;
     private static final int READ_FILE = 1;
+    private static final int CREATE_FILE2 = 2;
+    private static final int CREATE_FILE3 = 3;
     private Uri documentUri;
+    private Uri documentUri2;
+    private Uri documentUri3;
     private ProgressDialog progressDialog;
 
     /**
@@ -277,6 +281,22 @@ public class Ricci extends MainActivity {
         startActivityForResult(intent, READ_FILE);
     }
 
+    private void write2(Context context2) {
+        Intent intent2 = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+        intent2.addCategory(Intent.CATEGORY_OPENABLE);
+        intent2.setType("text/plain");
+        intent2.putExtra(Intent.EXTRA_TITLE,"MyInputFile");
+        startActivityForResult(intent2, CREATE_FILE2);
+    }
+
+    private void write3(Context context3) {
+        Intent intent3 = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+        intent3.addCategory(Intent.CATEGORY_OPENABLE);
+        intent3.setType("text/plain");
+        intent3.putExtra(Intent.EXTRA_TITLE,"MyOutputFile");
+        startActivityForResult(intent3, CREATE_FILE3);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -311,6 +331,40 @@ public class Ricci extends MainActivity {
             }
         }
 
+        if (requestCode == CREATE_FILE2 && data != null) {
+            // save input file
+            Toast.makeText(getApplicationContext(), "File successfully created", Toast.LENGTH_SHORT).show();
+            try {
+                documentUri2 = data.getData();
+                ParcelFileDescriptor pfd2 = getContentResolver().openFileDescriptor(data.getData(), "w");
+                FileOutputStream fileOutputStream = new FileOutputStream(pfd2.getFileDescriptor());
+                String fileContents = Input.getText().toString();
+                fileOutputStream.write((fileContents + "\n").getBytes());
+                fileOutputStream.close();
+                pfd2.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                Toast.makeText(getApplicationContext(), "File not written", Toast.LENGTH_SHORT).show();
+            }
+        }
+
+        if (requestCode == CREATE_FILE3 && data != null) {
+            // save output file
+            Toast.makeText(getApplicationContext(), "File successfully created", Toast.LENGTH_SHORT).show();
+            try {
+                documentUri3 = data.getData();
+                ParcelFileDescriptor pfd3 = getContentResolver().openFileDescriptor(data.getData(), "w");
+                FileOutputStream fileOutputStream = new FileOutputStream(pfd3.getFileDescriptor());
+                String fileContents = Output.getText().toString();
+                fileOutputStream.write((fileContents + "\n").getBytes());
+                fileOutputStream.close();
+                pfd3.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                Toast.makeText(getApplicationContext(), "File not written", Toast.LENGTH_SHORT).show();
+            }
+        }
+
     }
 
     private View.OnClickListener saveInputfileClick; {
@@ -328,63 +382,11 @@ public class Ricci extends MainActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                alertSaveInput();
+                write2(getApplicationContext());
                 InputField(exec("cat "+getFilesDir()+"/Ricci/JH-Ricci.inp"));
             }
         };
     }
-
-
-    public void alertSaveInput(){
-        // creating the EditText widget programatically
-        EditText editText = new EditText(Ricci.this);
-        // create the AlertDialog as final
-        final AlertDialog dialog = new AlertDialog.Builder(Ricci.this)
-                .setMessage("The file will be saved in the folder /storage/emulated/0/Documents/jh-suite/work/Ricci")
-                .setTitle("Please write the desired filename (if already present, it will be overwritten)")
-                .setView(editText)
-
-                // Set the action buttons
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-                        String Inputfile = Input.getText().toString();
-                        String SaveInputName = editText.getText().toString();
-                        try {
-                            FileOutputStream fileout = openFileOutput(SaveInputName, MODE_PRIVATE);
-                            OutputStreamWriter outputWriter = new OutputStreamWriter(fileout);
-                            outputWriter.write(Inputfile);
-                            outputWriter.close();
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                        exec("mv "+getFilesDir()+"/"+SaveInputName+" "+Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)+"/jh-suite/work/Ricci");
-                    }
-                })
-
-                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-                        // removes the AlertDialog in the screen
-                    }
-                })
-                .create();
-
-        // set the focus change listener of the EditText10
-        // this part will make the soft keyboard automaticall visible
-        editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (hasFocus) {
-                    dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
-                }
-            }
-        });
-
-        dialog.show();
-
-    }
-
 
     private View.OnClickListener RunClick; {
 
@@ -485,62 +487,11 @@ public class Ricci extends MainActivity {
         saveOutputfileClick = new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub //
-                alertSaveOutput();
+                write3(getApplicationContext());
                 OutputField(exec("cat "+getFilesDir()+"/Ricci/JH-Ricci.out"));
                 InputField(exec("cat "+getFilesDir()+"/Ricci/JH-Ricci.inp"));
             }
         };
-    }
-
-
-    public void alertSaveOutput(){
-        // creating the EditText widget programatically
-        EditText editText15 = new EditText(Ricci.this);
-        // create the AlertDialog as final
-        final AlertDialog dialog = new AlertDialog.Builder(Ricci.this)
-                .setMessage("The file will be saved in the folder /storage/emulated/0/Documents/jh-suite/work/Ricci")
-                .setTitle("Please write the desired filename (if already present, it will be overwritten)")
-                .setView(editText15)
-
-                // Set the action buttons
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-                        String OutputProtocol = Output.getText().toString();
-                        String SaveOutputName = editText15.getText().toString();
-                        try {
-                            FileOutputStream fileout = openFileOutput(SaveOutputName, MODE_PRIVATE);
-                            OutputStreamWriter outputWriter = new OutputStreamWriter(fileout);
-                            outputWriter.write(OutputProtocol);
-                            outputWriter.close();
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                        exec("mv "+getFilesDir()+"/"+SaveOutputName+" "+Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)+"/jh-suite/work/Ricci");
-                    }
-                })
-
-                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-                        // removes the AlertDialog in the screen
-                    }
-                })
-                .create();
-
-        // set the focus change listener of the EditText10
-        // this part will make the soft keyboard automaticall visible
-        editText15.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (hasFocus) {
-                    dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
-                }
-            }
-        });
-
-        dialog.show();
-
     }
 
     private View.OnClickListener HighlightClick; {

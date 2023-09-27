@@ -164,6 +164,7 @@
         <activity android:name="cz.jh.suite.ParmsZuman5" />
         <activity android:name="cz.jh.suite.ParmsZuman6" />
         <activity android:name="cz.jh.suite.ParmsZuman7" />
+        <activity android:name="cz.jh.suite.Manual" />
     </application>
 
 </manifest>

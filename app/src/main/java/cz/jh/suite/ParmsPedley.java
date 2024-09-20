@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-import cz.suite.R;
+import cz.jh.suite.R;
 
 
 public class ParmsPedley extends Pedley {

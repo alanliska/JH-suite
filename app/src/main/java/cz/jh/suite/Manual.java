@@ -22,7 +22,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
-import cz.suite.R;
+import cz.jh.suite.R;
 
 
 public class Manual extends MainActivity {

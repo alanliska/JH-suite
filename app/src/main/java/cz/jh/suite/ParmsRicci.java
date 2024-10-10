@@ -36,6 +36,7 @@ public class ParmsRicci extends Ricci {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsricci);
 
         Quit = (Button) findViewById(R.id.Quit);

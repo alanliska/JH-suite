@@ -36,6 +36,7 @@ public class ParmsPedley extends Pedley {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmspedley);
 
         Quit = (Button) findViewById(R.id.Quit);

@@ -36,6 +36,7 @@ public class CodeClifford1 extends Clifford1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codeclifford1);
 
         Quit = (Button) findViewById(R.id.Quit);

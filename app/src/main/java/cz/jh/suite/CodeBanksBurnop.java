@@ -36,6 +36,7 @@ public class CodeBanksBurnop extends BanksBurnop {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebanksburnop);
 
         Quit = (Button) findViewById(R.id.Quit);

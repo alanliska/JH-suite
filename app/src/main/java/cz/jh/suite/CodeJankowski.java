@@ -36,6 +36,7 @@ public class CodeJankowski extends Jankowski {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codejankowski);
 
         Quit = (Button) findViewById(R.id.Quit);

@@ -38,6 +38,7 @@ public class ParmsHammett2 extends Hammett2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmshammett2);
 
         Quit = (Button) findViewById(R.id.Quit);

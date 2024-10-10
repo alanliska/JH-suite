@@ -210,6 +210,7 @@ public class Clifford2 extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.clifford2);
 
         Description = (TextView) findViewById(R.id.Description);

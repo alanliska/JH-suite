@@ -210,6 +210,7 @@ public class Misono2 extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.misono2);
 
         Description = (TextView) findViewById(R.id.Description);

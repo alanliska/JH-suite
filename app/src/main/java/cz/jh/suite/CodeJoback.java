@@ -36,6 +36,7 @@ public class CodeJoback extends Joback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codejoback);
 
         Quit = (Button) findViewById(R.id.Quit);

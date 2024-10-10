@@ -36,6 +36,7 @@ public class CodeMisono2 extends Misono2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codemisono2);
 
         Quit = (Button) findViewById(R.id.Quit);

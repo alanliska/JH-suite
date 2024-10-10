@@ -38,6 +38,7 @@ public class ParmsBrownStein extends BrownStein {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsbrownstein);
 
         Quit = (Button) findViewById(R.id.Quit);

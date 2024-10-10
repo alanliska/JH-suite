@@ -36,6 +36,7 @@ public class ParmsJankowski extends Jankowski {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsjankowski);
 
         Quit = (Button) findViewById(R.id.Quit);

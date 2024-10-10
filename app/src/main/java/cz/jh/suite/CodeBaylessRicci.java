@@ -36,6 +36,7 @@ public class CodeBaylessRicci extends BaylessRicci {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebaylessricci);
 
         Quit = (Button) findViewById(R.id.Quit);

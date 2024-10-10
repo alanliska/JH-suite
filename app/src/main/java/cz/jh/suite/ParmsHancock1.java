@@ -38,6 +38,7 @@ public class ParmsHancock1 extends Hancock1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmshancock1);
 
         Quit = (Button) findViewById(R.id.Quit);

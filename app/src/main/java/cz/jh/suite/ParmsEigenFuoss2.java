@@ -38,6 +38,7 @@ public class ParmsEigenFuoss2 extends EigenFuoss2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmseigenfuoss2);
 
         Quit = (Button) findViewById(R.id.Quit);

@@ -36,6 +36,7 @@ public class CodePauling1 extends Pauling1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codepauling1);
 
         Quit = (Button) findViewById(R.id.Quit);

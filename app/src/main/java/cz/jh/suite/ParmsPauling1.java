@@ -36,6 +36,7 @@ public class ParmsPauling1 extends Pauling1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmspauling1);
 
         Quit = (Button) findViewById(R.id.Quit);

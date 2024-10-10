@@ -210,6 +210,7 @@ public class Bayless extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.bayless);
 
         Description = (TextView) findViewById(R.id.Description);

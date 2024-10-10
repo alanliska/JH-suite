@@ -36,6 +36,7 @@ public class CodeKlopman2 extends Klopman2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codeklopman2);
 
         Quit = (Button) findViewById(R.id.Quit);

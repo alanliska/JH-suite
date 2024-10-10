@@ -38,6 +38,7 @@ public class ParmsSanderson extends Sanderson {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmssanderson);
 
         Quit = (Button) findViewById(R.id.Quit);

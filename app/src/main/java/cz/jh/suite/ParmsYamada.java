@@ -38,6 +38,7 @@ public class ParmsYamada extends Yamada {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsyamada);
 
         Quit = (Button) findViewById(R.id.Quit);

@@ -36,6 +36,7 @@ public class CodeDick extends Dick {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codedick);
 
         Quit = (Button) findViewById(R.id.Quit);

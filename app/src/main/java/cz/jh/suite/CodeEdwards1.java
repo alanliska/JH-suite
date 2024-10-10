@@ -36,6 +36,7 @@ public class CodeEdwards1 extends Edwards1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codeedwards1);
 
         Quit = (Button) findViewById(R.id.Quit);

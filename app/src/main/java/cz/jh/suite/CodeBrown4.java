@@ -36,6 +36,7 @@ public class CodeBrown4 extends Brown4 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebrown4);
 
         Quit = (Button) findViewById(R.id.Quit);

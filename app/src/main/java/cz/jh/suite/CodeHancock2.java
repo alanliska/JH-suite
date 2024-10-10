@@ -36,6 +36,7 @@ public class CodeHancock2 extends Hancock2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codehancock2);
 
         Quit = (Button) findViewById(R.id.Quit);

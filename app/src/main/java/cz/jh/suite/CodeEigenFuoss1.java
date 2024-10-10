@@ -36,6 +36,7 @@ public class CodeEigenFuoss1 extends EigenFuoss1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codeeigenfuoss1);
 
         Quit = (Button) findViewById(R.id.Quit);

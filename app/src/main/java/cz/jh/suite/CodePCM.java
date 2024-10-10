@@ -36,6 +36,7 @@ public class CodePCM extends PCM {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codepcm);
 
         Quit = (Button) findViewById(R.id.Quit);

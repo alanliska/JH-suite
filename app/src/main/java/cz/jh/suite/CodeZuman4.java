@@ -36,6 +36,7 @@ public class CodeZuman4 extends Zuman4 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codezuman4);
 
         Quit = (Button) findViewById(R.id.Quit);

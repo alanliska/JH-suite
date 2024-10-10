@@ -210,6 +210,7 @@ public class Zuman5 extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.zuman5);
 
         Description = (TextView) findViewById(R.id.Description);

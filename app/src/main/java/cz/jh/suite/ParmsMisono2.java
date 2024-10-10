@@ -42,6 +42,7 @@ public class ParmsMisono2 extends Misono2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsmisono2);
 
         Quit = (Button) findViewById(R.id.Quit);

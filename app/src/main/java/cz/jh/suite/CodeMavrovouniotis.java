@@ -36,6 +36,7 @@ public class CodeMavrovouniotis extends Mavrovouniotis {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codemavrovouniotis);
 
         Quit = (Button) findViewById(R.id.Quit);

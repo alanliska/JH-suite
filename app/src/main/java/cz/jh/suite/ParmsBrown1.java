@@ -56,6 +56,7 @@ public class ParmsBrown1 extends Brown1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsbrown1);
 
         Quit = (Button) findViewById(R.id.Quit);

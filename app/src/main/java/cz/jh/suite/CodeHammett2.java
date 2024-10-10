@@ -36,6 +36,7 @@ public class CodeHammett2 extends Hammett2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codehammett2);
 
         Quit = (Button) findViewById(R.id.Quit);

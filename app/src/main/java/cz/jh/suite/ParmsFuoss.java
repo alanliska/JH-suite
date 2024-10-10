@@ -38,6 +38,7 @@ public class ParmsFuoss extends Fuoss {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsfuoss);
 
         Quit = (Button) findViewById(R.id.Quit);

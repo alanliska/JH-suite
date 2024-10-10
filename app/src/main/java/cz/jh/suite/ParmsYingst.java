@@ -38,6 +38,7 @@ public class ParmsYingst extends Yingst {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsyingst);
 
         Quit = (Button) findViewById(R.id.Quit);

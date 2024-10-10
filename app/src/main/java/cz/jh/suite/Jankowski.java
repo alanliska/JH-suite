@@ -210,6 +210,7 @@ public class Jankowski extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.jankowski);
 
         Description = (TextView) findViewById(R.id.Description);

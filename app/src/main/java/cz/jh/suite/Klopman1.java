@@ -210,6 +210,7 @@ public class Klopman1 extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.klopman1);
 
         Description = (TextView) findViewById(R.id.Description);

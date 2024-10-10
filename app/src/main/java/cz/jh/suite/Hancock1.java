@@ -210,6 +210,7 @@ public class Hancock1 extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.hancock1);
 
         Description = (TextView) findViewById(R.id.Description);

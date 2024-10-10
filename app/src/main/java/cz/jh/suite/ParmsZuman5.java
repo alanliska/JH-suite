@@ -38,6 +38,7 @@ public class ParmsZuman5 extends Zuman5 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmszuman5);
 
         Quit = (Button) findViewById(R.id.Quit);

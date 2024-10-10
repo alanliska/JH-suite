@@ -40,6 +40,7 @@ public class ParmsClifford2 extends Clifford2 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsclifford2);
 
         Quit = (Button) findViewById(R.id.Quit);

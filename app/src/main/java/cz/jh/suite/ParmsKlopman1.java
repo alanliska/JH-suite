@@ -36,6 +36,7 @@ public class ParmsKlopman1 extends Klopman1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsklopman1);
 
         Quit = (Button) findViewById(R.id.Quit);

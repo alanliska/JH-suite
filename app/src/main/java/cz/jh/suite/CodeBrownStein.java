@@ -36,6 +36,7 @@ public class CodeBrownStein extends BrownStein {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebrownstein);
 
         Quit = (Button) findViewById(R.id.Quit);

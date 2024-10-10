@@ -38,6 +38,7 @@ public class ParmsSimamora extends Simamora {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmssimamora);
 
         Quit = (Button) findViewById(R.id.Quit);

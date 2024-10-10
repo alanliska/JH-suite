@@ -38,6 +38,7 @@ public class ParmsJoback extends Joback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsjoback);
 
         Quit = (Button) findViewById(R.id.Quit);

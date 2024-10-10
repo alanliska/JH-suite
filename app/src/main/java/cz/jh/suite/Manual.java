@@ -32,6 +32,7 @@ public class Manual extends MainActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.manual);
 
         PdfView pdfView = findViewById(R.id.pdfView);

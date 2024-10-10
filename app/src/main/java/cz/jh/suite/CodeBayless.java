@@ -36,6 +36,7 @@ public class CodeBayless extends Bayless {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebayless);
 
         Quit = (Button) findViewById(R.id.Quit);

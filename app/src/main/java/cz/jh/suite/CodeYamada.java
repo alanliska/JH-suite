@@ -36,6 +36,7 @@ public class CodeYamada extends Yamada {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codeyamada);
 
         Quit = (Button) findViewById(R.id.Quit);

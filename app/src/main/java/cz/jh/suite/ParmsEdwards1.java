@@ -38,6 +38,7 @@ public class ParmsEdwards1 extends Edwards1 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.parmsedwards1);
 
         Quit = (Button) findViewById(R.id.Quit);

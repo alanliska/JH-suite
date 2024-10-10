@@ -36,6 +36,7 @@ public class CodeBell extends Bell {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+	getSupportActionBar().hide();
         setContentView(R.layout.codebell);
 
         Quit = (Button) findViewById(R.id.Quit);
